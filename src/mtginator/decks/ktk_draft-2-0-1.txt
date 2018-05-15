@@ -1,0 +1,33 @@
+4 Prognostic Sphinx
+1 Keranos, God of Storms
+
+4 Dig Through Time
+4 Steam Augury
+3 Magma Jet
+3 Lightning Strike
+2 Anger of the Gods
+4 Perilous Vault
+3 Mind swipe
+4 Dissolve
+1 Disdainful Stroke
+1 Aetherspouts
+
+4 Temple of Epiphany
+4 Shivan Reef
+4 Saltwater Cliffs
+4 Radiant Fountain
+2 Evolving Wilds
+4 Island
+4 Mountain
+
+
+sideboard
+
+SB:2 Wall of Frost
+SB:2 Anger of the Gods
+SB:3 Negate
+SB:3 Disdainful Stroke
+SB:1 Pearl Lake Ancient
+SB:2 Magma Spray
+SB:1 Mindswipe
+SB:1 Aetherspouts

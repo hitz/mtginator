@@ -1,0 +1,30 @@
+Creatures (36)
+4 Foundry Street Denizen
+4 Rakdos Cackler
+4 Firedrinker Satyr
+4 Legion Loyalist
+3 Frenzied Goblin
+4 Firefist Striker
+3 Goblin Shortcutter
+4 Goblin Rabblemaster
+2 Pyrewild Shaman
+4 Rubblebelt Maaka
+
+Spells (4)
+4 Boros Charm
+
+Lands (20)
+2 Mutavault
+4 Battlefield Forge
+4 Sacred Foundry
+2 Mana Confluence
+8 Mountain
+
+Sideboard (15)
+4 Chained to the Rocks
+3 Forge Devil
+2 Wear / Tear
+4 Phyrexian Revoker
+1 Glare of Heresy
+1 Hall of Triumph
+2 Legion’s Initiative

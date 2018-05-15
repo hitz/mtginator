@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Boros Burn - firedancer</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="10" price="0" name="Mountain"/>
+        <card number="4" price="0" name="Sacred Foundry"/>
+        <card number="4" price="0" name="Temple of Silence"/>
+        <card number="4" price="0" name="Temple of Triumph"/>
+        <card number="4" price="0" name="Boros Charm"/>
+        <card number="4" price="0" name="Chained to the Rocks"/>
+        <card number="3" price="0" name="Lightning Strike"/>
+        <card number="4" price="0" name="Magma Jet"/>
+        <card number="3" price="0" name="Shock"/>
+        <card number="4" price="0" name="Skullcrack"/>
+        <card number="1" price="0" name="Chandra, Pyromaster"/>
+        <card number="4" price="0" name="Chandra's Phoenix"/>
+        <card number="3" price="0" name="Warleader's Helix"/>
+        <card number="3" price="0" name="Searing Blood"/>
+        <card number="2" price="0" name="Satyr Firedancer"/>
+        <card number="1" price="0" name="Toil // Trouble"/>
+        <card number="2" price="0" name="Mizzium Mortars"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Assemble the Legion"/>
+        <card number="3" price="0" name="Spark Trooper"/>
+        <card number="3" price="0" name="Toil // Trouble"/>
+        <card number="2" price="0" name="Wear // Tear"/>
+        <card number="2" price="0" name="Mizzium Mortars"/>
+        <card number="2" price="0" name="Satyr Firedancer"/>
+    </zone>
+</cockatrice_deck>

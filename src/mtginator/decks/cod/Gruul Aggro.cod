@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Gruul Aggro</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Mutavault"/>
+        <card number="4" price="0" name="Rootbound Crag"/>
+        <card number="4" price="0" name="Stomping Ground"/>
+        <card number="6" price="0" name="Mountain"/>
+        <card number="9" price="0" name="Forest"/>
+        <card number="2" price="0" name="Elvish Mystic"/>
+        <card number="3" price="0" name="Scavenging Ooze"/>
+        <card number="4" price="0" name="Arbor Elf"/>
+        <card number="4" price="0" name="Flinthoof Boar"/>
+        <card number="4" price="0" name="Ghor-Clan Rampager"/>
+        <card number="4" price="0" name="Hellrider"/>
+        <card number="4" price="0" name="Strangleroot Geist"/>
+        <card number="4" price="0" name="Thundermaw Hellkite"/>
+        <card number="4" price="0" name="Domri Rade"/>
+        <card number="3" price="0" name="Mizzium Mortars"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Volcanic Strength"/>
+        <card number="2" price="0" name="Pillar of Flame"/>
+        <card number="2" price="0" name="Fog"/>
+        <card number="2" price="0" name="Chandra, Pyromaster"/>
+        <card number="4" price="0" name="Burning Earth"/>
+        <card number="2" price="0" name="Bonfire of the Damned"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,35 @@
+1 Valley Dasher
+2 Ainok Bond-Kin
+1 Jeskai Student
+1 Seeker of the Way
+1 War-Name Aspirant
+1 Hordeling Outburst
+4 Mardu Hordechief
+1 Bloodfire Expert
+1 Canyon Lurkers
+1 War Behemoth
+1 Efreet Weaponmaster
+2 Dragon-Style Twins
+
+1 Ride Down
+1 Force Away
+1 Suspension Field
+1 Bring Low
+1 Master the Way
+1 Set Adrift
+
+1 Mystic Monastery
+1 Wind-Scarred Crag
+1 Tranquil Cove
+2 Island
+7 Mountain
+5 Plains
+
+//sideboard
+1 Siegecraft
+1 Take Up Arms
+1 Erase
+//alternate splash
+1 Sandsteppe Citadel
+1 Become Immense
+1 Awaken the Bear

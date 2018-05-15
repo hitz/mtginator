@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>UW heroic standard</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Hallowed Fountain"/>
+        <card number="7" price="0" name="Island"/>
+        <card number="7" price="0" name="Plains"/>
+        <card number="4" price="0" name="Hidden Strings"/>
+        <card number="3" price="0" name="Mizzium Skin"/>
+        <card number="4" price="0" name="Triton Tactics"/>
+        <card number="4" price="0" name="Favored Hoplite"/>
+        <card number="4" price="0" name="Nivmagus Elemental"/>
+        <card number="4" price="0" name="Phalanx Leader"/>
+        <card number="4" price="0" name="Battlewise Hoplite"/>
+        <card number="3" price="0" name="Daxos of Meletis"/>
+        <card number="4" price="0" name="Azorius Guildgate"/>
+        <card number="4" price="0" name="Gods Willing"/>
+        <card number="4" price="0" name="Fabled Hero"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Akroan Crusader"/>
+        <card number="1" price="0" name="Dragon Mantle"/>
+        <card number="1" price="0" name="Ember Swallower"/>
+        <card number="2" price="0" name="Everflame Eidolon"/>
+        <card number="1" price="0" name="Fearsome Temper"/>
+        <card number="1" price="0" name="Ill-Tempered Cyclops"/>
+        <card number="1" price="0" name="Impetuous Sunchaser"/>
+        <card number="1" price="0" name="Lightning Strike"/>
+        <card number="1" price="0" name="Satyr Rambler"/>
+        <card number="1" price="0" name="Spearpoint Oread"/>
+        <card number="1" price="0" name="Two-Headed Cerberus"/>
+        <card number="1" price="0" name="Akroan Phalanx"/>
+        <card number="1" price="0" name="Divine Verdict"/>
+        <card number="1" price="0" name="Gods Willing"/>
+        <card number="1" price="0" name="Lagonna-Band Elder"/>
+        <card number="1" price="0" name="Observant Alseid"/>
+        <card number="1" price="0" name="Ornitharch"/>
+        <card number="1" price="0" name="Revoke Existence"/>
+        <card number="1" price="0" name="Temple of Triumph"/>
+        <card number="9" price="0" name="Mountain"/>
+        <card number="7" price="0" name="Plains"/>
+        <card number="1" price="0" name="Flame-Wreathed Phoenix"/>
+        <card number="2" price="0" name="Mortal's Ardor"/>
+        <card number="1" price="0" name="Borderland Minotaur"/>
+    </zone>
+    <zone name="side">
+        <card number="1" price="0" name="Forsaken Drifters"/>
+        <card number="1" price="0" name="Nyxborn Eidolon"/>
+        <card number="1" price="0" name="Viper's Kiss"/>
+        <card number="1" price="0" name="Epiphany Storm"/>
+        <card number="1" price="0" name="Messenger's Speed"/>
+        <card number="1" price="0" name="Peak Eruption"/>
+        <card number="1" price="0" name="Portent of Betrayal"/>
+        <card number="1" price="0" name="Rage of Purphoros"/>
+        <card number="1" price="0" name="Spark Jolt"/>
+        <card number="1" price="0" name="Ephara's Warden"/>
+        <card number="1" price="0" name="Setessan Griffin"/>
+        <card number="1" price="0" name="Silent Artisan"/>
+        <card number="1" price="0" name="Annul"/>
+        <card number="1" price="0" name="Aqueous Form"/>
+        <card number="1" price="0" name="Gainsay"/>
+        <card number="1" price="0" name="Stratus Walk"/>
+        <card number="1" price="0" name="Vaporkin"/>
+        <card number="1" price="0" name="Anvilwrought Raptor"/>
+        <card number="2" price="0" name="Island"/>
+        <card number="1" price="0" name="Mountain"/>
+    </zone>
+</cockatrice_deck>

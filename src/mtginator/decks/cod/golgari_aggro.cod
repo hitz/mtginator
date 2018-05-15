@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Overgrown Tomb"/>
+        <card number="9" price="0" name="Swamp"/>
+        <card number="10" price="0" name="Forest"/>
+        <card number="1" price="0" name="Kalonian Hydra"/>
+        <card number="2" price="0" name="Polukranos, World Eater"/>
+        <card number="4" price="0" name="Boon Satyr"/>
+        <card number="4" price="0" name="Elvish Mystic"/>
+        <card number="4" price="0" name="Lotleth Troll"/>
+        <card number="4" price="0" name="Reaper of the Wilds"/>
+        <card number="4" price="0" name="Scavenging Ooze"/>
+        <card number="2" price="0" name="Vraska the Unseen"/>
+        <card number="1" price="0" name="Whip of Erebos"/>
+        <card number="3" price="0" name="Hero's Downfall"/>
+        <card number="4" price="0" name="Abrupt Decay"/>
+        <card number="4" price="0" name="Thoughtseize"/>
+    </zone>
+    <zone name="side">
+        <card number="1" price="0" name="Hero's Downfall"/>
+        <card number="1" price="0" name="Vraska the Unseen"/>
+        <card number="4" price="0" name="Pithing Needle"/>
+        <card number="2" price="0" name="Erebos, God of the Dead"/>
+        <card number="3" price="0" name="Lifebane Zombie"/>
+        <card number="4" price="0" name="Duress"/>
+    </zone>
+</cockatrice_deck>

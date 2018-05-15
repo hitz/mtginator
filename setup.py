@@ -14,6 +14,11 @@ install_requires = [
     # http://packages.python.org/distribute/setuptools.html#declaring-dependencies
 ]
 
+tests_require = [
+    'pytest>=2.4.0',
+    'pytest-mock',
+    'pytest_exact_fixtures',
+]
 
 setup(name='mtginator',
     version=version,

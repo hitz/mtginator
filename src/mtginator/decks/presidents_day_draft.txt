@@ -1,0 +1,80 @@
+1 Typhoid Rats
+1 Qarsi High Priest
+1 Leaping Master
+1 Sultai Emissary
+1 Gore Swine
+1 Kheru Bloodsucker
+1 Sidisi’s Pet
+2 Krumar Bond-Kin
+2 Summit Prowler
+1 Mardu Warshrieker
+1 Rotting Mastodon
+1 Sultai Scavenger
+1 Necropolis Fiend
+
+2 Bitter Revelation
+1 Throttle
+1 Arrow Storm
+1 Palace Siege
+1 Burn Away
+1 Mob Rule
+
+//sideboard
+1 Rakshasha’s Secret
+1 Sultai Scavenger
+1 Hero’s Blade
+2 Rotting Mastadon
+
+//nowhite board
+1 Sage-Eye Harrier
+1 Sandblast
+1 Mardu Roughrider
+
+——
+
+//dudes
+1 Wetland Sambar
+1 Jeskai Elder
+1 Valley Dasher
+1 Mardu Scout
+1 Icefeather Aven
+1 Jeskai Windscout
+1 Gore Swine
+1 Snowhorn Rider
+3 Summit Prowler
+1 Mardu Heat-Piercer
+1 Mardu Warshrieker
+1 Riverwheel Aerialists
+
+//core spells
+1 Tormenting Voice
+1 Hordeling Outburst
+1 Bathe in Dragonfire
+1 Arrow Storm
+1 Master the Way
+
+//rotating spells/dude (pick 4)
+1 Cunning Strike
+1 Whisk Away
+1 Hero’s Blade
+1 Jeskai Runemark
+1 Witness of the Ages
+
+2 Thornwood Falls
+6 Island
+9 Mountain
+
+//rest of picks
+1 Jeskai Runemark
+1 Scaldkin
+1 Renowned Weaponsmith
+1 Briber’s Purse
+1 Scoured Barrens
+1 Tranquil Cove
+1 Efreet Weaponmaster
+1 Abzan Guide
+1 Abomination of Gudul
+1 Erase
+1 Rush of Battle
+1 Scout the Borders
+1 Archers of Qarsi

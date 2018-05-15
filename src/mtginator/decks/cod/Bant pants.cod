@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Bant pants</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Forest"/>
+        <card number="2" price="0" name="Hinterland Harbor"/>
+        <card number="3" price="0" name="Glacial Fortress"/>
+        <card number="4" price="0" name="Breeding Pool"/>
+        <card number="4" price="0" name="Hallowed Fountain"/>
+        <card number="4" price="0" name="Sunpetal Grove"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="3" price="0" name="Fiendslayer Paladin"/>
+        <card number="3" price="0" name="Gladecover Scout"/>
+        <card number="4" price="0" name="Avacyn's Pilgrim"/>
+        <card number="4" price="0" name="Geist of Saint Traft"/>
+        <card number="4" price="0" name="Invisible Stalker"/>
+        <card number="2" price="0" name="Ajani, Caller of the Pride"/>
+        <card number="4" price="0" name="Ethereal Armor"/>
+        <card number="4" price="0" name="Rancor"/>
+        <card number="4" price="0" name="Spectral Flight"/>
+        <card number="4" price="0" name="Unflinching Courage"/>
+        <card number="2" price="0" name="Spell Rupture"/>
+    </zone>
+    <zone name="side">
+        <card number="1" price="0" name="Spell Rupture"/>
+        <card number="1" price="0" name="Sigarda, Host of Herons"/>
+        <card number="2" price="0" name="Ray of Revelation"/>
+        <card number="1" price="0" name="Nevermore"/>
+        <card number="2" price="0" name="Negate"/>
+        <card number="2" price="0" name="Nearheath Pilgrim"/>
+        <card number="4" price="0" name="Mending Touch"/>
+        <card number="2" price="0" name="Fog"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Ash Zealot"/>
+        <card number="2" price="0" name="Frostburn Weird"/>
+        <card number="4" price="0" name="Burning-Tree Emissary"/>
+        <card number="2" price="0" name="Sylvan Caryatid"/>
+        <card number="1" price="0" name="Scavenging Ooze"/>
+        <card number="4" price="0" name="Boros Reckoner"/>
+        <card number="3" price="0" name="Hammer of Purphoros"/>
+        <card number="4" price="0" name="Ember Swallower"/>
+        <card number="3" price="0" name="Xenagos, the Reveler"/>
+        <card number="3" price="0" name="Purphoros, God of the Forge"/>
+        <card number="2" price="0" name="Stormbreath Dragon"/>
+        <card number="4" price="0" name="Mizzium Mortars"/>
+        <card number="12" price="0" name="Mountain"/>
+        <card number="4" price="0" name="Temple of Abandon"/>
+        <card number="4" price="0" name="Stomping Ground"/>
+        <card number="1" price="0" name="Gruul Guildgate"/>
+        <card number="3" price="0" name="Nykthos, Shrine to Nyx"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Burning Earth"/>
+        <card number="2" price="0" name="Domri Rade"/>
+        <card number="2" price="0" name="Fanatic of Mogis"/>
+        <card number="1" price="0" name="Polis Crusher"/>
+        <card number="1" price="0" name="Mutavault"/>
+        <card number="1" price="0" name="Peak Eruption"/>
+        <card number="2" price="0" name="Shock"/>
+        <card number="2" price="0" name="Flames of the Firebrand"/>
+        <card number="2" price="0" name="Lightning Strike"/>
+    </zone>
+</cockatrice_deck>

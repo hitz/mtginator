@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Devotion to dimir - ntsb</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="14" price="0" name="Island"/>
+        <card number="1" price="0" name="Swamp"/>
+        <card number="4" price="0" name="Temple of Deceit"/>
+        <card number="4" price="0" name="Watery Grave"/>
+        <card number="2" price="0" name="Bident of Thassa"/>
+        <card number="1" price="0" name="Doom Blade"/>
+        <card number="4" price="0" name="Cloudfin Raptor"/>
+        <card number="4" price="0" name="Frostburn Weird"/>
+        <card number="4" price="0" name="Judge's Familiar"/>
+        <card number="4" price="0" name="Master of Waves"/>
+        <card number="4" price="0" name="Nightveil Specter"/>
+        <card number="4" price="0" name="Thassa, God of the Sea"/>
+        <card number="4" price="0" name="Tidebinder Mage"/>
+        <card number="1" price="0" name="Ultimate Price"/>
+        <card number="2" price="0" name="Far // Away"/>
+        <card number="1" price="0" name="Rapid Hybridization"/>
+        <card number="2" price="0" name="Thoughtseize"/>
+    </zone>
+    <zone name="side">
+        <card number="4" price="0" name="Duress"/>
+        <card number="2" price="0" name="Negate"/>
+        <card number="1" price="0" name="AEtherling"/>
+        <card number="1" price="0" name="Doom Blade"/>
+        <card number="1" price="0" name="Ultimate Price"/>
+        <card number="2" price="0" name="Gainsay"/>
+        <card number="1" price="0" name="Bident of Thassa"/>
+        <card number="1" price="0" name="Cyclonic Rift"/>
+        <card number="1" price="0" name="Dark Betrayal"/>
+        <card number="1" price="0" name="Notion Thief"/>
+    </zone>
+</cockatrice_deck>

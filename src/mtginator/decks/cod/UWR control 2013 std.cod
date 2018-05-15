@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>UWR control 2013 std</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Glacial Fortress"/>
+        <card number="4" price="0" name="Steam Vents"/>
+        <card number="4" price="0" name="Sulfur Falls"/>
+        <card number="3" price="0" name="Clifftop Retreat"/>
+        <card number="3" price="0" name="Sacred Foundry"/>
+        <card number="4" price="0" name="Hallowed Fountain"/>
+        <card number="1" price="0" name="Cavern of Souls"/>
+        <card number="2" price="0" name="Moorland Haunt"/>
+        <card number="1" price="0" name="Island"/>
+        <card number="2" price="0" name="Snapcaster Mage"/>
+        <card number="4" price="0" name="Restoration Angel"/>
+        <card number="4" price="0" name="Augur of Bolas"/>
+        <card number="1" price="0" name="Thundermaw Hellkite"/>
+        <card number="3" price="0" name="Think Twice"/>
+        <card number="2" price="0" name="Syncopate"/>
+        <card number="3" price="0" name="Azorius Charm"/>
+        <card number="1" price="0" name="Izzet Charm"/>
+        <card number="2" price="0" name="Searing Spear"/>
+        <card number="2" price="0" name="Counterflux"/>
+        <card number="2" price="0" name="Pillar of Flame"/>
+        <card number="2" price="0" name="Turn // Burn"/>
+        <card number="3" price="0" name="Sphinx's Revelation"/>
+        <card number="2" price="0" name="Warleader's Helix"/>
+        <card number="1" price="0" name="Runechanter's Pike"/>
+    </zone>
+    <zone name="side">
+        <card number="1" price="0" name="Assemble the Legion"/>
+        <card number="2" price="0" name="Detention Sphere"/>
+        <card number="2" price="0" name="Celestial Flare"/>
+        <card number="1" price="0" name="Ratchet Bomb"/>
+        <card number="2" price="0" name="Thundermaw Hellkite"/>
+        <card number="1" price="0" name="Negate"/>
+        <card number="2" price="0" name="Dispel"/>
+        <card number="1" price="0" name="Pillar of Flame"/>
+        <card number="1" price="0" name="Wear // Tear"/>
+    </zone>
+</cockatrice_deck>

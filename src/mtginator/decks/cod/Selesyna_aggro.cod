@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Voice of Resurgence"/>
+        <card number="4" price="0" name="Fleecemane Lion"/>
+        <card number="2" price="0" name="Boon Satyr"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="11" price="0" name="Forest"/>
+        <card number="8" price="0" name="Plains"/>
+        <card number="4" price="0" name="Soldier of the Pantheon"/>
+        <card number="4" price="0" name="Loxodon Smiter"/>
+        <card number="3" price="0" name="Giant Growth"/>
+        <card number="4" price="0" name="Selesnya Charm"/>
+        <card number="4" price="0" name="Dryad Militant"/>
+        <card number="2" price="0" name="Advent of the Wurm"/>
+        <card number="4" price="0" name="Scavenging Ooze"/>
+        <card number="2" price="0" name="Experiment One"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Glare of Heresy"/>
+        <card number="2" price="0" name="Experiment One"/>
+        <card number="4" price="0" name="Rootborn Defenses"/>
+        <card number="3" price="0" name="Bow of Nylea"/>
+        <card number="3" price="0" name="Spear of Heliod"/>
+    </zone>
+</cockatrice_deck>

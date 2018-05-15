@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>naya mid range</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Kessig Wolf Run"/>
+        <card number="1" price="0" name="Plains"/>
+        <card number="1" price="0" name="Sacred Foundry"/>
+        <card number="2" price="0" name="Gavony Township"/>
+        <card number="2" price="0" name="Mountain"/>
+        <card number="4" price="0" name="Forest"/>
+        <card number="4" price="0" name="Rootbound Crag"/>
+        <card number="4" price="0" name="Stomping Ground"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="2" price="0" name="Borderland Ranger"/>
+        <card number="2" price="0" name="Restoration Angel"/>
+        <card number="2" price="0" name="Scavenging Ooze"/>
+        <card number="2" price="0" name="Thragtusk"/>
+        <card number="4" price="0" name="Arbor Elf"/>
+        <card number="4" price="0" name="Avacyn's Pilgrim"/>
+        <card number="4" price="0" name="Huntmaster of the Fells"/>
+        <card number="4" price="0" name="Loxodon Smiter"/>
+        <card number="4" price="0" name="Thundermaw Hellkite"/>
+        <card number="2" price="0" name="Garruk, Primal Hunter"/>
+        <card number="3" price="0" name="Domri Rade"/>
+        <card number="4" price="0" name="Mizzium Mortars"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Unflinching Courage"/>
+        <card number="1" price="0" name="Tree of Redemption"/>
+        <card number="1" price="0" name="Sigarda, Host of Herons"/>
+        <card number="2" price="0" name="Rest in Peace"/>
+        <card number="1" price="0" name="Ray of Revelation"/>
+        <card number="2" price="0" name="Oblivion Ring"/>
+        <card number="1" price="0" name="Chandra, Pyromaster"/>
+        <card number="2" price="0" name="Bonfire of the Damned"/>
+        <card number="1" price="0" name="Garruk, Primal Hunter"/>
+        <card number="1" price="0" name="Domri Rade"/>
+    </zone>
+</cockatrice_deck>

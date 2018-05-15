@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>BG dredge aggro</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Deathrite Shaman"/>
+        <card number="4" price="0" name="Elvish Mystic"/>
+        <card number="3" price="0" name="Sylvan Caryatid"/>
+        <card number="4" price="0" name="Satyr Wayfinder"/>
+        <card number="4" price="0" name="Lotleth Troll"/>
+        <card number="4" price="0" name="Nighthowler"/>
+        <card number="4" price="0" name="Herald of Torment"/>
+        <card number="2" price="0" name="Jarad, Golgari Lich Lord"/>
+        <card number="4" price="0" name="Nemesis of Mortals"/>
+        <card number="4" price="0" name="Commune with the Gods"/>
+        <card number="4" price="0" name="Grisly Salvage"/>
+        <card number="8" price="0" name="Forest"/>
+        <card number="4" price="0" name="Overgrown Tomb"/>
+        <card number="7" price="0" name="Swamp"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Golgari Charm"/>
+        <card number="3" price="0" name="Shadowborn Demon"/>
+        <card number="4" price="0" name="Skylasher"/>
+        <card number="4" price="0" name="Thoughtseize"/>
+        <card number="1" price="0" name="Jarad, Golgari Lich Lord"/>
+    </zone>
+</cockatrice_deck>

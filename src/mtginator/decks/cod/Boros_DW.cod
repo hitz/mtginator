@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Nykthos, Shrine to Nyx"/>
+        <card number="2" price="0" name="Temple of Triumph"/>
+        <card number="4" price="0" name="Plains"/>
+        <card number="4" price="0" name="Sacred Foundry"/>
+        <card number="12" price="0" name="Mountain"/>
+        <card number="1" price="0" name="Purphoros, God of the Forge"/>
+        <card number="2" price="0" name="Viashino Firstblade"/>
+        <card number="3" price="0" name="Spark Trooper"/>
+        <card number="4" price="0" name="Ash Zealot"/>
+        <card number="4" price="0" name="Boros Reckoner"/>
+        <card number="4" price="0" name="Chandra's Phoenix"/>
+        <card number="4" price="0" name="Fanatic of Mogis"/>
+        <card number="1" price="0" name="Chandra, Pyromaster"/>
+        <card number="3" price="0" name="Chained to the Rocks"/>
+        <card number="3" price="0" name="Lightning Strike"/>
+        <card number="4" price="0" name="Boros Charm"/>
+        <card number="4" price="0" name="Magma Jet"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Mindsparker"/>
+        <card number="2" price="0" name="Ogre Battledriver"/>
+        <card number="1" price="0" name="Celestial Flare"/>
+        <card number="2" price="0" name="Skullcrack"/>
+        <card number="1" price="0" name="Warleader's Helix"/>
+        <card number="2" price="0" name="Mizzium Mortars"/>
+        <card number="1" price="0" name="Pithing Needle"/>
+        <card number="1" price="0" name="Ratchet Bomb"/>
+        <card number="1" price="0" name="Assemble the Legion"/>
+        <card number="2" price="0" name="Blind Obedience"/>
+    </zone>
+</cockatrice_deck>

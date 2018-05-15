@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>selesnya mid</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="2" price="0" name="Gavony Township"/>
+        <card number="4" price="0" name="Sunpetal Grove"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="6" price="0" name="Plains"/>
+        <card number="8" price="0" name="Forest"/>
+        <card number="2" price="0" name="Arbor Elf"/>
+        <card number="2" price="0" name="Avacyn's Pilgrim"/>
+        <card number="2" price="0" name="Elvish Mystic"/>
+        <card number="2" price="0" name="Sigarda, Host of Herons"/>
+        <card number="2" price="0" name="Trostani, Selesnya's Voice"/>
+        <card number="4" price="0" name="Loxodon Smiter"/>
+        <card number="4" price="0" name="Voice of Resurgence"/>
+        <card number="2" price="0" name="Garruk Relentless"/>
+        <card number="2" price="0" name="Collective Blessing"/>
+        <card number="3" price="0" name="Oblivion Ring"/>
+        <card number="3" price="0" name="Selesnya Charm"/>
+        <card number="4" price="0" name="Advent of the Wurm"/>
+        <card number="4" price="0" name="Call of the Conclave"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Unflinching Courage"/>
+        <card number="2" price="0" name="Triumph of Ferocity"/>
+        <card number="1" price="0" name="Thragtusk"/>
+        <card number="2" price="0" name="Scavenging Ooze"/>
+        <card number="2" price="0" name="Garruk, Primal Hunter"/>
+        <card number="2" price="0" name="Centaur Healer"/>
+        <card number="1" price="0" name="Angel of Serenity"/>
+        <card number="1" price="0" name="Acidic Slime"/>
+        <card number="1" price="0" name="Trostani, Selesnya's Voice"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="2" price="0" name="Xenagos, the Reveler"/>
+        <card number="3" price="0" name="Mizzium Mortars"/>
+        <card number="4" price="0" name="Domri Rade"/>
+        <card number="4" price="0" name="Sylvan Caryatid"/>
+        <card number="4" price="0" name="Elvish Mystic"/>
+        <card number="4" price="0" name="Ember Swallower"/>
+        <card number="4" price="0" name="Satyr Hedonist"/>
+        <card number="4" price="0" name="Stormbreath Dragon"/>
+        <card number="3" price="0" name="Scavenging Ooze"/>
+        <card number="4" price="0" name="Ghor-Clan Rampager"/>
+        <card number="4" price="0" name="Temple of Abandon"/>
+        <card number="4" price="0" name="Stomping Ground"/>
+        <card number="9" price="0" name="Mountain"/>
+        <card number="7" price="0" name="Forest"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Polukranos, World Eater"/>
+        <card number="1" price="0" name="Chandra, Pyromaster"/>
+        <card number="4" price="0" name="Burning Earth"/>
+        <card number="2" price="0" name="Ratchet Bomb"/>
+        <card number="2" price="0" name="Ruric Thar, the Unbowed"/>
+        <card number="2" price="0" name="Flames of the Firebrand"/>
+        <card number="2" price="0" name="Hammer of Purphoros"/>
+    </zone>
+</cockatrice_deck>

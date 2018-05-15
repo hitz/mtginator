@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Dryad Militant"/>
+        <card number="4" price="0" name="Soldier of the Pantheon"/>
+        <card number="2" price="0" name="Mutavault"/>
+        <card number="9" price="0" name="Plains"/>
+        <card number="4" price="0" name="Boros Reckoner"/>
+        <card number="4" price="0" name="Sacred Foundry"/>
+        <card number="6" price="0" name="Mountain"/>
+        <card number="3" price="0" name="Chained to the Rocks"/>
+        <card number="4" price="0" name="Lightning Strike"/>
+        <card number="4" price="0" name="Gore-House Chainwalker"/>
+        <card number="2" price="0" name="Anax and Cymede"/>
+        <card number="4" price="0" name="Titan's Strength"/>
+        <card number="4" price="0" name="Gods Willing"/>
+        <card number="3" price="0" name="Phalanx Leader"/>
+        <card number="3" price="0" name="Fabled Hero"/>
+    </zone>
+    <zone name="side">
+        <card number="4" price="0" name="Rootborn Defenses"/>
+        <card number="2" price="0" name="Phalanx Leader"/>
+    </zone>
+</cockatrice_deck>

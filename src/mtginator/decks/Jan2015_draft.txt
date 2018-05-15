@@ -1,0 +1,63 @@
+1 Jeskai Windscout
+2 Bloodfire Mentor
+1 Mardu Hordechief
+1 Canyon Lurkers
+1 War Behemoth
+1 Mystic of the Hidden Way
+1 Efreet Weaponmaster
+1 Alabaster Kirin
+1 Summit Prowler
+1 Scaldkin
+1 Warden of the Eye
+1 Riverwheel Aerialists
+
+1 Hordeling Outburst
+1 Arc Lightning
+1 Crippling Chill
+2 Winterflame
+2 Bring Low
+1 Swift Kick
+1 Treasure Cruise
+
+1 Swiftwater Cliffs
+2 Wind-Scarred Crags
+1 Tranquil Cove
+
+///
+1 Mardu Skullhunter
+1 Ainok Bond-Kin
+1 Archers Parapet
+1 Alpine Grizzly
+1 Kheru Bloodsucker
+1 Watcher of the Roost
+1 Sidisi’s Pet
+2 Abzan Guide
+1 Mer-Ek Nightblade
+1 Sultai Flayer
+1 Longshot Squad
+1 High Sentinels of Arashin
+1 Siege Rhino
+
+1 Feat of Resistance
+1 Savage Punch
+1 Killshot
+1 Bitter Revelation
+1 Dragonscale Boon
+2 Smite the Monsterous
+
+//
+Sideboard
+
+1 Kin-Tree Warden
+1 Krumar Bond-Kin
+1 Salt Road Patrol
+1 Unyielding Krumar
+1 Kheru Dreadmaw
+1 Shambling Attendants
+
+1 Erase
+1 Naturalize
+1 Heart-Piercer Bow
+2 Awaken the Bear
+1 Bitter Revelation
+1 Incremental Growth

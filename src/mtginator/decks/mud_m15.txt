@@ -1,0 +1,31 @@
+Lands
+20 Island
+4 Mutavault
+1 Nykthos, Shrine to Nyx
+Creatures
+4 Cloudfin Raptor
+4 Judge's Familiar
+4 Frostburn Weird
+4 Tidebinder Mage
+4 Nightveil Specter
+4 Thassa, God of the Sea
+4 Master of Waves
+Noncreature Spells
+1 Cyclonic Rift
+2 Rapid Hybridization
+1 Hall of Triumph
+2 Bident of Thassa
+1 Jace, the Living Guildpact
+ 
+Sideboard
+SB:2 Gainsay
+SB:2 Dissolve
+SB:1 Negate
+SB:1 Military Intelligence
+SB:2 Polymorphist's Jest
+SB:1 Rapid Hybridization
+SB:2 Domestication
+SB:1 Void Snare
+SB:1 Jace, Architect of Thought
+SB:1 Jace, Memory Adept
+SB:1 Dispel

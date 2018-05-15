@@ -1,0 +1,135 @@
+//Red
+1 Valley Dasher
+1 Leaping Master
+1 Mardu Blazebringer
+1 Mardu Warshrieker
+1 Summit Prowler
+1 Canyon Lurkers
+
+1 Trumpet Blast
+1 Howl of the Horde
+1 Hordeling Outburst
+1 Barrage of Boulders
+1 Swift Kick
+1 Arrow Storm
+1 Burn Away
+
+//White
+1 Mardu Hateblade
+1 Aiknok Bond-Kin
+1 Secret of the Way
+1 Mardu Hordechief
+
+1 Defiant Strike
+1 Erase
+1 Feat of Resistance
+1 Kill Shot
+1 Rush of Battle
+1 Smite the Monsterous
+
+//Green
+1 Archers’ Parapet
+1 Alpine Grizzly
+1 Sultai Flayer
+1 Longshot Squad
+2 Hooting Mandrills
+1 Tusked Colossodon
+2 Wooly Loxodon
+
+1 Windstorm
+1 Savage Punch
+2 Naturalize
+1 Dragonscale Boon
+
+//Black
+1 Ruthless Ripper
+1 Unyielding Krumar
+1 Kheru Dreadmaw
+1 Sultai Scavenger
+
+2 Molting Snakeskin
+1 Rakshasa’s Secret
+1 Throttle
+2 Rite of the Serpent
+
+//Blue
+1 Embodiment of Spring
+2 Wetland Sambar
+1 Dragon’s Eye Savants
+1 Whirlwind Adepts
+1 Mystic of the Hidden Way
+2 Glacial Stalker
+1 Pearl Lake Ancient
+
+1 Stubborn Denial
+1 Disdainful Stroke
+1 Taigam’s Scheming
+1 Blinding Spray
+2 Treasure Cruise
+
+//Multicolor
+1 Icefeather Aven
+1 Highspire Mantis
+1 Armament Corps
+1 Mardu Roughrider
+1 Abominsation of Gudul
+1 Snowhorn Rider
+1 Kheru Lich Lord
+
+1 Secret Plans
+1 Trap Essence
+1 Master the Way
+
+//Colorless
+1 Briber’s Purse
+1 Dragon Throne of Tarkir
+
+//Fixing
+1 Temur Banner
+2 Mardu Banner
+1 Windswept Heath
+1 Tranquil Cove
+1 Blossoming Sands
+1 Thornwood Falls
+2 Frontier Bivouac
+1 Jungle Hollow
+1 Rugged Highlands
+
+[spoiler]
+[deck]
+1 Embodiment of Spring
+1 Ruthless Ripper
+1 Archers’ Parapet
+1 Icefeather Aven
+1 Alpine Grizzly
+1 Longshot Squad
+1 Mystic of the Hidden Way
+1 Hooting Mandrills
+1 Sultai Scavenger
+1 Abominsation of Gudul
+1 Snowhorn Rider
+1 Kheru Lich Lord
+2 Wooly Loxodon
+1 Pearl Lake Ancient
+
+1 Savage Punch
+1 Burn Away
+1 Throttle
+2 Rite of the Serpent
+1 Treasure Cruise
+
+1 Thornwood Falls
+2 Frontier Bivouac
+1 Jungle Hollow
+1 Rugged Highlands
+1 Mountain
+6 Swamp
+3 Island
+3 Forest
+
+//Side
+1 Sultai Flayer
+1 Rakshasa’s Secret
+1 Master the Way
+1 Temur Banner
+

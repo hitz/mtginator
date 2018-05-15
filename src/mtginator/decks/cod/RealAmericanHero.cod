@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Real Americal Hero</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Favored Hoplite"/>
+        <card number="4" price="0" name="Gods Willing"/>
+        <card number="4" price="0" name="Hidden Strings"/>
+        <card number="4" price="0" name="Trait Doctoring"/>
+        <card number="4" price="0" name="Akroan Skyguard"/>
+        <card number="4" price="0" name="Boros Charm"/>
+        <card number="4" price="0" name="Steam Vents"/>
+        <card number="4" price="0" name="Sacred Foundry"/>
+        <card number="4" price="0" name="Hallowed Fountain"/>
+        <card number="4" price="0" name="Temple of Enlightenment"/>
+        <card number="4" price="0" name="Temple of Triumph"/>
+        <card number="1" price="0" name="Anax and Cymede"/>
+        <card number="2" price="0" name="Judge's Familiar"/>
+        <card number="4" price="0" name="Akroan Crusader"/>
+        <card number="4" price="0" name="Phalanx Leader"/>
+        <card number="3" price="0" name="Stratus Walk"/>
+        <card number="2" price="0" name="Coordinated Assault"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Judge's Familiar"/>
+        <card number="4" price="0" name="Madcap Skills"/>
+        <card number="2" price="0" name="Rootborn Defenses"/>
+        <card number="2" price="0" name="Fabled Hero"/>
+        <card number="3" price="0" name="Dragon Mantle"/>
+        <card number="2" price="0" name="Triton Tactics"/>
+    </zone>
+</cockatrice_deck>

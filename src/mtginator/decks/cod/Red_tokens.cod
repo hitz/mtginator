@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Young Pyromancer"/>
+        <card number="4" price="0" name="Frostburn Weird"/>
+        <card number="4" price="0" name="Boros Reckoner"/>
+        <card number="3" price="0" name="Shock"/>
+        <card number="4" price="0" name="Magma Jet"/>
+        <card number="4" price="0" name="Lightning Strike"/>
+        <card number="3" price="0" name="Molten Birth"/>
+        <card number="3" price="0" name="Hammer of Purphoros"/>
+        <card number="3" price="0" name="Purphoros, God of the Forge"/>
+        <card number="24" price="0" name="Mountain"/>
+        <card number="4" price="0" name="Ogre Battledriver"/>
+    </zone>
+    <zone name="side">
+        <card number="4" price="0" name="Guttersnipe"/>
+        <card number="3" price="0" name="Electrickery"/>
+        <card number="2" price="0" name="Burning Earth"/>
+        <card number="2" price="0" name="Peak Eruption"/>
+        <card number="4" price="0" name="Annihilating Fire"/>
+    </zone>
+</cockatrice_deck>

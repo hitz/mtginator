@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>prime speaker bant</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Glacial Fortress"/>
+        <card number="2" price="0" name="Forest"/>
+        <card number="2" price="0" name="Gavony Township"/>
+        <card number="3" price="0" name="Hallowed Fountain"/>
+        <card number="4" price="0" name="Breeding Pool"/>
+        <card number="4" price="0" name="Hinterland Harbor"/>
+        <card number="4" price="0" name="Sunpetal Grove"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="1" price="0" name="Armada Wurm"/>
+        <card number="2" price="0" name="Angel of Serenity"/>
+        <card number="2" price="0" name="Prime Speaker Zegana"/>
+        <card number="2" price="0" name="Progenitor Mimic"/>
+        <card number="2" price="0" name="Trostani, Selesnya's Voice"/>
+        <card number="3" price="0" name="Centaur Healer"/>
+        <card number="3" price="0" name="Loxodon Smiter"/>
+        <card number="3" price="0" name="Restoration Angel"/>
+        <card number="3" price="0" name="Voice of Resurgence"/>
+        <card number="4" price="0" name="Avacyn's Pilgrim"/>
+        <card number="4" price="0" name="Thragtusk"/>
+        <card number="1" price="0" name="Garruk, Caller of Beasts"/>
+        <card number="1" price="0" name="Garruk, Primal Hunter"/>
+        <card number="1" price="0" name="Jace, Architect of Thought"/>
+        <card number="4" price="0" name="Farseek"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Precinct Captain"/>
+        <card number="1" price="0" name="Acidic Slime"/>
+        <card number="1" price="0" name="Simic Charm"/>
+        <card number="2" price="0" name="Supreme Verdict"/>
+        <card number="2" price="0" name="Scavenging Ooze"/>
+        <card number="2" price="0" name="Ætherling"/>
+        <card number="1" price="0" name="Ætherize"/>
+        <card number="2" price="0" name="Rest in Peace"/>
+        <card number="1" price="0" name="Savage Summoning"/>
+        <card number="1" price="0" name="Rootborn Defenses"/>
+    </zone>
+</cockatrice_deck>

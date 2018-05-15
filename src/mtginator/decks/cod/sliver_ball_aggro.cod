@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Galerider Sliver"/>
+        <card number="4" price="0" name="Artisan of Forms"/>
+        <card number="4" price="0" name="Predatory Sliver"/>
+        <card number="4" price="0" name="Manaweft Sliver"/>
+        <card number="3" price="0" name="Elvish Mystic"/>
+        <card number="4" price="0" name="Mutavault"/>
+        <card number="2" price="0" name="Progenitor Mimic"/>
+        <card number="4" price="0" name="Breeding Pool"/>
+        <card number="3" price="0" name="Clone"/>
+        <card number="7" price="0" name="Forest"/>
+        <card number="7" price="0" name="Island"/>
+        <card number="3" price="0" name="Mizzium Skin"/>
+        <card number="3" price="0" name="Simic Charm"/>
+        <card number="3" price="0" name="Alpha Authority"/>
+        <card number="2" price="0" name="Megantic Sliver"/>
+        <card number="3" price="0" name="Giant Growth"/>
+    </zone>
+    <zone name="side">
+        <card number="1" price="0" name="Elvish Mystic"/>
+        <card number="1" price="0" name="Nimbus Naiad"/>
+        <card number="1" price="0" name="Bident of Thassa"/>
+        <card number="1" price="0" name="Boon Satyr"/>
+        <card number="1" price="0" name="Kalonian Hydra"/>
+        <card number="1" price="0" name="Prophet of Kruphix"/>
+        <card number="1" price="0" name="Cyclonic Rift"/>
+        <card number="1" price="0" name="Ranger's Guile"/>
+        <card number="2" price="0" name="Gyre Sage"/>
+        <card number="1" price="0" name="AEtherling"/>
+        <card number="2" price="0" name="Megantic Sliver"/>
+        <card number="1" price="0" name="Mizzium Skin"/>
+        <card number="1" price="0" name="Simic Charm"/>
+    </zone>
+</cockatrice_deck>

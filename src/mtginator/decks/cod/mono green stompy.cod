@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>mono green stompy</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Dryad Militant"/>
+        <card number="4" price="0" name="Young Wolf"/>
+        <card number="4" price="0" name="Experiment One"/>
+        <card number="4" price="0" name="Strangleroot Geist"/>
+        <card number="4" price="0" name="Kalonian Tusker"/>
+        <card number="4" price="0" name="Scavenging Ooze"/>
+        <card number="3" price="0" name="Ulvenwald Tracker"/>
+        <card number="4" price="0" name="Slaughterhorn"/>
+        <card number="4" price="0" name="Giant Growth"/>
+        <card number="4" price="0" name="Rancor"/>
+        <card number="2" price="0" name="Phytoburst"/>
+        <card number="19" price="0" name="Forest"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Plummet"/>
+        <card number="2" price="0" name="Ranger's Guile"/>
+        <card number="3" price="0" name="Tormod's Crypt"/>
+        <card number="1" price="0" name="Ulvenwald Tracker"/>
+        <card number="3" price="0" name="Prey Upon"/>
+        <card number="4" price="0" name="Naturalize"/>
+    </zone>
+</cockatrice_deck>

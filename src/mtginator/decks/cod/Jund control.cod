@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Jund control</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Rootbound Crag"/>
+        <card number="1" price="0" name="Swamp"/>
+        <card number="2" price="0" name="Forest"/>
+        <card number="2" price="0" name="Kessig Wolf Run"/>
+        <card number="3" price="0" name="Dragonskull Summit"/>
+        <card number="4" price="0" name="Blood Crypt"/>
+        <card number="4" price="0" name="Overgrown Tomb"/>
+        <card number="4" price="0" name="Stomping Ground"/>
+        <card number="4" price="0" name="Woodland Cemetery"/>
+        <card number="2" price="0" name="Arbor Elf"/>
+        <card number="3" price="0" name="Lifebane Zombie"/>
+        <card number="4" price="0" name="Olivia Voldaren"/>
+        <card number="4" price="0" name="Thragtusk"/>
+        <card number="2" price="0" name="Garruk, Primal Hunter"/>
+        <card number="2" price="0" name="Primeval Bounty"/>
+        <card number="2" price="0" name="Underworld Connections"/>
+        <card number="2" price="0" name="Putrefy"/>
+        <card number="2" price="0" name="Tragic Slip"/>
+        <card number="1" price="0" name="Duress"/>
+        <card number="2" price="0" name="Dreadbore"/>
+        <card number="2" price="0" name="Rakdos's Return"/>
+        <card number="3" price="0" name="Bonfire of the Damned"/>
+        <card number="4" price="0" name="Farseek"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Huntmaster of the Fells"/>
+        <card number="3" price="0" name="Scavenging Ooze"/>
+        <card number="2" price="0" name="Golgari Charm"/>
+        <card number="3" price="0" name="Liliana of the Veil"/>
+        <card number="1" price="0" name="Barter in Blood"/>
+        <card number="2" price="0" name="Pillar of Flame"/>
+        <card number="1" price="0" name="Duress"/>
+    </zone>
+</cockatrice_deck>

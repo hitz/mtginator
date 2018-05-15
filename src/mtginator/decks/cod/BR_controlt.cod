@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Desecration Demon"/>
+        <card number="4" price="0" name="Anger of the Gods"/>
+        <card number="3" price="0" name="Dreadbore"/>
+        <card number="2" price="0" name="Chandra, Pyromaster"/>
+        <card number="3" price="0" name="Read the Bones"/>
+        <card number="3" price="0" name="Rakdos Keyrune"/>
+        <card number="4" price="0" name="Blood Crypt"/>
+        <card number="4" price="0" name="Rakdos Guildgate"/>
+        <card number="8" price="0" name="Swamp"/>
+        <card number="7" price="0" name="Mountain"/>
+        <card number="2" price="0" name="Mutavault"/>
+        <card number="2" price="0" name="Rakdos's Return"/>
+        <card number="4" price="0" name="Lifebane Zombie"/>
+        <card number="4" price="0" name="Stormbreath Dragon"/>
+        <card number="3" price="0" name="Mizzium Mortars"/>
+        <card number="3" price="0" name="Thoughtseize"/>
+    </zone>
+    <zone name="side">
+        <card number="3" price="0" name="Underworld Connections"/>
+        <card number="2" price="0" name="Hammer of Purphoros"/>
+        <card number="1" price="0" name="Whip of Erebos"/>
+        <card number="2" price="0" name="Ratchet Bomb"/>
+        <card number="2" price="0" name="Doom Blade"/>
+        <card number="1" price="0" name="Rakdos's Return"/>
+        <card number="1" price="0" name="Thoughtseize"/>
+    </zone>
+</cockatrice_deck>

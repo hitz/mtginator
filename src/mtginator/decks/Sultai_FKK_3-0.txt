@@ -1,0 +1,40 @@
+1 Ruthless Ripper
+2 Highland Game
+1 Ainok Guide
+1 Sultai Emissary
+1 Abzan Beastmaster
+1 Cloudform
+1 Hooded Assassin
+1 Sidisi's Pet
+1 Woolly Loxodon
+1 Bellowing Saddlebrute
+2 Feral Krushok
+1 Mindscour Dragon
+1 Tusked Colossodon
+
+1 Ghostfire Blade
+1 Debilitating Injury
+1 Sultai Charm
+1 Awaken the Bear
+1 Palace Siege
+1 Rite of the Serpent
+1 Dead Drop
+
+1 Dismal Backwater
+2 Jungle Hollow
+4 Island
+5 Swamp
+6 Forest
+
+//Sideboard
+1 Frost Walker
+1 Rotting Mastodon
+1 Tusked Colossodon
+1 Shambling Attendants
+1 Molting Snakeskin
+1 Despise
+1 Crippling Chill
+1 Seek the Horizon
+1 Fruit of the First Tree
+1 Return to the Earth
+1 Shifting Loyalties

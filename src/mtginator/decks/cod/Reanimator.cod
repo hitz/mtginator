@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Reanimator</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="1" price="0" name="Sunpetal Grove"/>
+        <card number="2" price="0" name="Vault of the Archangel"/>
+        <card number="3" price="0" name="Forest"/>
+        <card number="3" price="0" name="Godless Shrine"/>
+        <card number="3" price="0" name="Isolated Chapel"/>
+        <card number="4" price="0" name="Overgrown Tomb"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="4" price="0" name="Woodland Cemetery"/>
+        <card number="2" price="0" name="Angel of Serenity"/>
+        <card number="2" price="0" name="Disciple of Bolas"/>
+        <card number="3" price="0" name="Arbor Elf"/>
+        <card number="3" price="0" name="Shadowborn Demon"/>
+        <card number="4" price="0" name="Avacyn's Pilgrim"/>
+        <card number="4" price="0" name="Loxodon Smiter"/>
+        <card number="4" price="0" name="Restoration Angel"/>
+        <card number="4" price="0" name="Thragtusk"/>
+        <card number="1" price="0" name="Putrefy"/>
+        <card number="4" price="0" name="Grisly Salvage"/>
+        <card number="2" price="0" name="Mulch"/>
+        <card number="3" price="0" name="Unburial Rites"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Trostani, Selesnya's Voice"/>
+        <card number="2" price="0" name="Gaze of Granite"/>
+        <card number="2" price="0" name="Obzedat, Ghost Council"/>
+        <card number="2" price="0" name="Ratchet Bomb"/>
+        <card number="2" price="0" name="Sin Collector"/>
+        <card number="2" price="0" name="Tree of Redemption"/>
+        <card number="2" price="0" name="Putrefy"/>
+        <card number="1" price="0" name="Disciple of Bolas"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,34 @@
+1 Disowned Ancestor
+1 Typhoid Rats
+2 Heir of the Wilds
+1 Wildcall
+1 Archer’s Parapet
+1 Hooded Assassin
+1 Lightform
+2 Abzan Guide
+1 Sidisi’s Pet
+1 Krumar Bond-Kin
+1 Wooly Loxodon
+1 Bellowing Saddlebrute
+1 Archfiend of Depravity
+1 Destructor Dragon
+
+2 Feat of Resistance
+1 Kill Shot
+1 Reach of Shadows
+1 Death Frenzy
+1 Rite of the Serpent
+
+1 Sandsteppe Citadel
+2 Blossoming Sands
+2 Scoured Barrens
+1 Plains
+6 Swamp
+6 Forest
+
+//Side
+1 Sage-Eye Harrier
+1 Sidisi’s Pet
+2 Flooded Strand
+1 Sultai Charm
+1 Weave Fate

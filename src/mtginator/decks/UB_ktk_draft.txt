@@ -1,0 +1,33 @@
+1 Disowned Ancestor
+1 Wetland Sambar
+3 Mardu Skullhunter
+1 Jeskai Windscout
+2 Mistfire Weaver
+1 Mystic of the Hidden Way
+1 Krumar Bond-Kin
+1 Glacial Stalker
+1 Scaldkin
+1 Scion of Glaciers
+1 Whirlwind Adept
+1 Shambling Attendants
+
+4 Force Away
+1 Crippling Chill
+1 Murderous Cut
+1 Throttle
+1 Bitter Revelation
+
+1 Dismal Backwater
+8 Island
+8 Swamp
+
+// Sideboard
+1 Tomb of the Spirit Dragon
+1 Villainous Wealth
+1 Abomination of Gudul
+1 Pine Walker
+1 Highland Game
+1 Jungle Hollow
+1 Shambling Attendants
+1 Weave Fate
+1 Kheru Dreadmaw

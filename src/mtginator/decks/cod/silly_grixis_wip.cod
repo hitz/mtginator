@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname></deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Nivix Cyclops"/>
+        <card number="4" price="0" name="Cyclonic Rift"/>
+        <card number="1" price="0" name="Possibility Storm"/>
+        <card number="1" price="0" name="Melek, Izzet Paragon"/>
+        <card number="4" price="0" name="Nightveil Specter"/>
+        <card number="4" price="0" name="Magma Jet"/>
+        <card number="4" price="0" name="Shock"/>
+        <card number="4" price="0" name="Essence Scatter"/>
+        <card number="3" price="0" name="Doom Blade"/>
+        <card number="3" price="0" name="Thoughtseize"/>
+        <card number="3" price="0" name="Duress"/>
+    </zone>
+</cockatrice_deck>

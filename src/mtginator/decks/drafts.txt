@@ -1,0 +1,124 @@
+// Dudes (and not a lot of e’m)
+1 Disowned Ancestor
+1 Jeskai Elder
+1 Jeskai Windscout
+1 Kin-Tree Invocation
+1 Mystic of the Hidden Way
+1 Sagu Archer
+1 Glacial Stalker
+1 Abomination of Gudul
+1 Thousand Winds
+1 Sidisi, Brood Tyrant
+1 Rakshaha Vizier
+1 Rotting Mastadon
+1 Sultai Scavenger
+
+//Removals
+2 Debilitating Injury
+1 Sultai Charm
+1 Rite of the Serpent
+
+// What is this I don’t even
+1 Dead Drop
+1 Sultai Ascendancy
+2 Treasure Cruise
+1 Cranial Archive
+
+// lands
+1 Sandsteppe Citadel
+1 Dismal Backwater
+1 Jungle Hollow
+1 Thornwood Falls
+5 Swamp
+6 Island
+3 Forest
+
+//Sideboard
+1 Unyielding Krumar
+1 Scaldkin
+1 Rotting Mastadon
+1 Kheru Dreadmaw
+
+1 Briber’s Purse
+1 Singing Bell Strike
+2 Taigam’s Scheming
+1 Cancel
+1 Bitter Revelation
+
+////
+1 Ainok Bond-Kin
+1 Jeskai Student
+2 Jeskai Elder
+1 Seeker of the Way
+1 Valley Dasher
+1 Bloodfire Mentor
+1 Monastery Flock
+1 Dragon’s Eye Savants
+1 Efreet Weaponmaster
+1 Thousand Winds
+2 Scaldkin
+1 Alabaster Kirin
+1 Warden of the Eye
+1 Riverwheel Aerialists
+
+1 Deflecting Palm
+1 Force Away
+1 Jeskai Ascendency
+1 Master the Way
+1 Waterwhirl
+1 Treasure Cruise
+
+1 Mystic Monastery
+2 Tranquil Cove
+2 Wind-Scarred Crag
+1 Swiftwater Cliffs
+5 island
+4 mountain
+3 plains
+
+//Sideboard
+1 War Behemoth
+1 Bloodfire Mentor
+1 Whirlwind Adept
+3 Ainok Tracker
+
+2 Swift Kick
+1 Bring Low
+2 Jeskai Banner
+
+////
+2 Valley Dasher
+1 Leaping Master
+1 Seeker of the Way
+1 Jeskai Student
+3 Mardu Hordechief
+1 Canyon Lurkers
+1 Mistfire Weaver
+1 Mardu Warshrieker
+2 Summit Prowler
+1 Highspire Mantis
+
+1 Force Away
+2 Arc Lightning
+1 Burn Away
+1 Smite the Monstrous
+1 Master the Way
+1 Arrow Storm
+1 Flying Crane Technique
+
+2 Wind-Scarred Crag
+1 Tranquil Cove
+1 Swiftwater Cliffs
+3 island
+5 plains
+6 mountain
+
+Sideboard
+1 Bloodfire Expert
+1 Summit Prowler
+1 Disdainful Stroke
+1 Force Away
+1 Act of Treason
+
+
+

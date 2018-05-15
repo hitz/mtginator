@@ -1,0 +1,94 @@
+
+1 Mardu Hateblade
+1 Soul Summons
+1 Leaping Master
+1 War-Name Aspirant
+1 Sultai Emissary
+1 Alesha, Who Smiles at Death
+1 Canyon Lurkers
+1 Ponyback Brigade
+1 Highspire Mantis
+1 Vaultbreaker
+1 Abzan Skycaptain
+1 Alabaster Kirin
+1 Daghatar the Adamant
+1 Elite Scaleguard
+1 Mardu Roughrider
+1 Lightning Shrieker
+1 Sultai Scavenger
+  
+1 Arcbond
+1 Douse in Gloom
+2 Sandblast
+1 Pyrotechnics
+
+//sideboard
+1 Smite the Monstrous
+1 Rite of the Serpent
+
+1 Nomad Outpost
+1 Bloodstained Mire
+1 Bloodfell Caves
+1 Wind-Scarred Crags
+3 Swamp
+5 Mountain
+6 Plains
+
+//cards that were probably better than Lightning shrieker
+1 Summit Prowler
+2 Gore Swine
+1 Gurmag Angler
+1 Smoldering Efreet
+1 Channel Harm
+1 Palace Siege
+
+Also had some filler [c]Great-Horn Krushok[/c]s and [c]Alesha’s Vanguard[/c]s
+He had some good blue like 2[c]whisk away[/c] but not good enough to cut the black splash.
+
+//Common Configuration
+1 Typhoid Rats
+1 Jeskai Sage
+1 Frost Walker
+1 Hooded Assassin
+1 Icefeather Aven
+1 Monastery Flock
+1 Abomination of Gudul
+1 Snowhorn Rider
+2 Abzan Kin-Guard
+1 Torrent Elemental
+2 Aven Surveyor
+1 Sultai Soothsayer
+1 Soulflayer
+1 Sibsig Muckdraggers
+
+1 Force Away
+1 Douse in Gloom
+1 Reach of Shadows
+1 Enhanced Awareness
+1 Crux of Fate
+1 Shifting Loyalties
+
+//Common Sideboard
+1 Bring Low
+1 Merciless Executioner
+1 Shifting Loyalties
+
+//1st Match Manifesting
+2 Formless Nurturing
+1 Secret Plans
+1 Ethereal Ambush
+
+//Other interesting Cards
+2 Hero’s Blade
+1 Hewed Stone Retainer
+1 Whisperer of the Wilds
+1 Sagu Archer
+2 Cunning Strike
+1 Frontier Siege
+1 Mardu Skullhunter
+
+//Good Cards I really couldn’t play
+1 Mob Rule
+1 Dragon-Style Twins
+1 Lightform
+1 Sandblast

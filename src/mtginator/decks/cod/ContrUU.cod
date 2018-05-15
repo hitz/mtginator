@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>ContrUU</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Thought Scour"/>
+        <card number="4" price="0" name="Mind Sculpt"/>
+        <card number="1" price="0" name="Mana Leak"/>
+        <card number="1" price="0" name="Essence Scatter"/>
+        <card number="1" price="0" name="Cancel"/>
+        <card number="1" price="0" name="Spell Snip"/>
+        <card number="1" price="0" name="Syncopate"/>
+        <card number="1" price="0" name="Rewind"/>
+        <card number="1" price="0" name="Curse of the Bloody Tome"/>
+        <card number="2" price="0" name="Opportunity"/>
+        <card number="1" price="0" name="Psychic Spiral"/>
+        <card number="3" price="0" name="Fog Bank"/>
+        <card number="2" price="0" name="Doorkeeper"/>
+        <card number="2" price="0" name="Hover Barrier"/>
+        <card number="1" price="0" name="Dreadwaters"/>
+        <card number="1" price="0" name="Jace's Mindseeker"/>
+        <card number="24" price="0" name="Island"/>
+        <card number="2" price="0" name="Archaeomancer"/>
+        <card number="1" price="0" name="Shriekgeist"/>
+        <card number="1" price="0" name="Vedalken Entrancer"/>
+        <card number="2" price="0" name="Traumatize"/>
+        <card number="1" price="0" name="Haunted Plate Mail"/>
+        <card number="1" price="0" name="Elite Arcanist"/>
+        <card number="1" price="0" name="Merfolk Mesmerist"/>
+    </zone>
+    <zone name="side">
+        <card number="2" price="0" name="Cyclonic Rift"/>
+        <card number="1" price="0" name="Voidwielder"/>
+        <card number="4" price="0" name="Sage's Row Denizen"/>
+        <card number="3" price="0" name="Tome Scour"/>
+        <card number="3" price="0" name="Time Ebb"/>
+        <card number="2" price="0" name="Essence Scatter"/>
+    </zone>
+</cockatrice_deck>

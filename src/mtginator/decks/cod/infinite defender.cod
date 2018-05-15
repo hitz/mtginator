@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>infinite defender</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Sylvan Caryatid"/>
+        <card number="4" price="0" name="Gatecreeper Vine"/>
+        <card number="4" price="0" name="Axebane Guardian"/>
+        <card number="4" price="0" name="Karametra's Acolyte"/>
+        <card number="3" price="0" name="Nivix Guildmage"/>
+        <card number="4" price="0" name="Triton Tactics"/>
+        <card number="3" price="0" name="Ready // Willing"/>
+        <card number="4" price="0" name="Aurelia's Fury"/>
+        <card number="4" price="0" name="Steam Augury"/>
+        <card number="4" price="0" name="Urban Evolution"/>
+        <card number="4" price="0" name="Temple of Abandon"/>
+        <card number="4" price="0" name="Temple of Mystery"/>
+        <card number="4" price="0" name="Temple Garden"/>
+        <card number="3" price="0" name="Breeding Pool"/>
+        <card number="3" price="0" name="Stomping Ground"/>
+        <card number="1" price="0" name="Forest"/>
+        <card number="1" price="0" name="Plains"/>
+        <card number="1" price="0" name="Island"/>
+        <card number="1" price="0" name="Mountain"/>
+    </zone>
+    <zone name="side">
+        <card number="4" price="0" name="Doorkeeper"/>
+        <card number="1" price="0" name="Niv-Mizzet, Dracogenius"/>
+    </zone>
+</cockatrice_deck>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>MB aggro</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="4" price="0" name="Thoughtseize"/>
+        <card number="4" price="0" name="Rakdos Cackler"/>
+        <card number="4" price="0" name="Tormented Hero"/>
+        <card number="4" price="0" name="Ultimate Price"/>
+        <card number="4" price="0" name="Pack Rat"/>
+        <card number="4" price="0" name="Thrill-Kill Assassin"/>
+        <card number="4" price="0" name="Lifebane Zombie"/>
+        <card number="4" price="0" name="Desecration Demon"/>
+        <card number="4" price="0" name="Mutavault"/>
+        <card number="20" price="0" name="Swamp"/>
+        <card number="4" price="0" name="Hero's Downfall"/>
+    </zone>
+    <zone name="side">
+        <card number="4" price="0" name="Nightveil Specter"/>
+        <card number="4" price="0" name="Duress"/>
+        <card number="4" price="0" name="Dark Betrayal"/>
+        <card number="3" price="0" name="Doom Blade"/>
+    </zone>
+</cockatrice_deck>

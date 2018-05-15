@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Zombies std 2013</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="3" price="0" name="Swamp"/>
+        <card number="4" price="0" name="Blood Crypt"/>
+        <card number="4" price="0" name="Cavern of Souls"/>
+        <card number="4" price="0" name="Dragonskull Summit"/>
+        <card number="4" price="0" name="Overgrown Tomb"/>
+        <card number="4" price="0" name="Woodland Cemetery"/>
+        <card number="2" price="0" name="Deathrite Shaman"/>
+        <card number="2" price="0" name="Diregraf Ghoul"/>
+        <card number="3" price="0" name="Blood Artist"/>
+        <card number="3" price="0" name="Dreg Mangler"/>
+        <card number="3" price="0" name="Lifebane Zombie"/>
+        <card number="4" price="0" name="Falkenrath Aristocrat"/>
+        <card number="4" price="0" name="Geralf's Messenger"/>
+        <card number="4" price="0" name="Gravecrawler"/>
+        <card number="4" price="0" name="Lotleth Troll"/>
+        <card number="1" price="0" name="Liliana of the Veil"/>
+        <card number="2" price="0" name="Abrupt Decay"/>
+        <card number="2" price="0" name="Brimstone Volley"/>
+        <card number="3" price="0" name="Tragic Slip"/>
+    </zone>
+    <zone name="side">
+        <card number="1" price="0" name="Underworld Connections"/>
+        <card number="2" price="0" name="Slaughter Games"/>
+        <card number="2" price="0" name="Olivia Voldaren"/>
+        <card number="1" price="0" name="Golgari Charm"/>
+        <card number="3" price="0" name="Duress"/>
+        <card number="2" price="0" name="Liliana of the Veil"/>
+        <card number="1" price="0" name="Abrupt Decay"/>
+        <card number="3" price="0" name="Vampire Nighthawk"/>
+    </zone>
+</cockatrice_deck>

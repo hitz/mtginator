@@ -1,0 +1,20 @@
+4 Mardu Scout
+3 Outpost Siege
+4 Wild Slash
+4 Hordeling Outburst
+4 Monastery Swiftspear
+4 Stoke the Flames
+3 Lightning Strike
+4 Firedrinker Satyr
+4 Foundry Street Denizen
+22 Mountain
+4 Goblin Rabblemaster
+
+Sideboard
+3 Sarkhan, the Dragonspeaker
+4 Eidolon of the Great Revel
+1 Harness by Force
+4 Searing Blood
+1 Mountain
+2 Arc Lightning
+
