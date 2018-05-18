@@ -1,6 +1,6 @@
-import pytest  #noqa
+import pytest  # noqa
 
-import mtginator.decks as decks
+from mtginator import decks
 data_dir = 'data/decks/'
 test_decks = {
     'Bolt.dec': {'main': 60, 'side': 0, 'lands': 20},

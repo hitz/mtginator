@@ -1,15 +1,16 @@
-This file requires editing
+MTGInator
 ==========================
 
-Note to the author: Please add something informative to this README *before*
-releasing your software, as `a little documentation goes a long way`_.  Both
-README.rst (this file) and NEWS.txt (release notes) will be included in your
-package metadata which gets displayed in the PyPI page for your project.
+This is a package for simulating (or goldfishing) Magic: The Gathering decks against each other, and optimizing manabases
+For Manabases - the basic principle I am following is:
+    "The optimal manabase is one that, on average, allows you to cast the most spells in the most mana-efficient manner".
 
-You can take a look at the README.txt of other projects, such as repoze.bfg
-(http://bfg.repoze.org/trac/browser/trunk/README.txt) for some ideas.
 
-.. _`a little documentation goes a long way`: http://www.martinaspeli.net/articles/a-little-documentation-goes-a-long-way
+Magic: The Gathering is a wholly owned trademark of Hasbro, Inc.
+
+To make: 
+buildout bootstrap
+bin/buildout
 
 Credits
 -------

@@ -17,10 +17,10 @@ install_requires = [
 tests_require = [
     'pytest>=2.4.0',
     'pytest-mock',
-    'pytest_exact_fixtures',
 ]
 
-setup(name='mtginator',
+setup(
+    name='mtginator',
     version=version,
     description="Magic: The Gathering Goldfishing Module",
     long_description=README + '\n\n' + NEWS,
@@ -33,9 +33,13 @@ setup(name='mtginator',
     url='http://chumpblock.com',
     license='MIT',
     packages=find_packages('src'),
-    package_dir = {'': 'src'},include_package_data=True,
+    package_dir={'': 'src'}, include_package_data=True,
     zip_safe=False,
     install_requires=install_requires,
+    tests_require=tests_require,
+    extras_require={
+        'test': tests_require,
+    },
     entry_points={
         'console_scripts':
             ['mtginator=mtginator:main']

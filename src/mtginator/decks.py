@@ -1,7 +1,8 @@
 import random
 import json
-from cards import cards
+import mtginator.cards as cards
 import re
+
 
 class Deck(object):
 
@@ -10,7 +11,7 @@ class Deck(object):
         self.side = []
         self.deck_file = ''
         self.name = name
-        self.total_cards = 0 ## not including side
+        self.total_cards = 0  # not including side
         self.db = CardDB()
 
     def shuffle(self):
@@ -30,8 +31,8 @@ class Deck(object):
 
         self.deck_file = input_file
         df = open(input_file)
-        regular = re.compile('(\d+)\s+(.+)$')
-        sideRe = re.compile('side(?i)')
+        regular = re.compile(r'(\d+)\s+(.+)$')
+        sideRe = re.compile(r'side(?i)')
         side = False
         for line in df.readlines():
             ## pre filters
@@ -61,8 +62,6 @@ class Deck(object):
         self.total_cards = len(self.main)
 
 
-
-
 class CardDB(object):
     ''' this reads all MTG cards from JSON.  It should be memoized '''
     def __init__(self, input_file='data/AllSets-x.json'):
@@ -70,9 +69,6 @@ class CardDB(object):
 
         hashed = {}
         for s in self.all.values():
-            hashed.update({ c['name']: c for c in s['cards'] })
+            hashed.update({c['name']: c for c in s['cards']})
 
         self.by_card = hashed
-
-
-

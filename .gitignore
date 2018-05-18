@@ -3,9 +3,13 @@
 .installed.cfg
 bin
 develop-eggs
+eggs
+.pytest_cache
 
 *.egg-info
 
 tmp
 build
 dist
+
+AllSets-x.json.zip

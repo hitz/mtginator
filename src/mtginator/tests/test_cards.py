@@ -1,6 +1,6 @@
-import pytest  #noqa
+import pytest  # noqa
 
-from mtginator.cards import cards as cards
+from mtginator import cards
 
 data = [
     {

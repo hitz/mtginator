@@ -1,8 +1,13 @@
 import re
-#from enum import Enum
-#zones = Enum('hand', 'library', 'graveyard', 'battlefield', 'exile')
-#permanents = Enum('land', 'creature', 'enchantment', 'artifact', 'planeswalker')
-## below should be enums I guess but never bothered to load module
+"""
+Defines Card objecs.
+
+"""
+# from enum import Enum
+# zones = Enum('hand', 'library', 'graveyard', 'battlefield', 'exile')
+# permanents = Enum('land', 'creature', 'enchantment', 'artifact', 'planeswalker')
+# below should be enums I guess but never bothered to load module
+
 zones = ['hand', 'library', 'graveyard', 'battlefield', 'exile']
 permanents = ['Land', 'Creature', 'Enchantment', 'Artifact', 'Planeswalker']
 base_symbols = ['B', 'G', 'R', 'U', 'W']
@@ -21,9 +26,9 @@ for a in base_symbols:
             allowed_symbols.append(a+'/'+b)
             allowed_symbols.append(b+'/'+a)
 
-manas = '\{\d+\}'
+manas = r'\{\d+\}'
 for s in allowed_symbols:
-    manas += '\{'+s+'\}+'
+    manas += r'\{'+s+'\}+'
 
 keywords = [
     'flash',
@@ -40,17 +45,21 @@ keywords = [
     'vigilance'
     ]
 # currently just evergreen keywords
-kwre = [ re.compile(k+'(?i)') for k in keywords ]
+kwre = [re.compile(k+'(?i)') for k in keywords]
 
 templates = {
-    'triggered': re.compile('(when |whenever)(?i)'),
-    'conditional': re.compile('if (?i)'),
-    'activated': re.compile('('+manas+'|sacrifice \S+|pay \S+):(?i)'),
-    'mana_ability': re.compile('^(B|G|R|W|U)$|\{T\}: Add ('+manas+') (.*) to your mana pool')
+    'triggered': re.compile(r'(when |whenever)(?i)'),
+    'conditional': re.compile(r'if (?i)'),
+    'activated': re.compile(r'('+manas+'|sacrifice \S+|pay \S+):(?i)'),
+    'mana_ability': re.compile(r'^(B|G|R|W|U)$|\{T\}: Add ('+manas+') (.*) to your mana pool')
 }
 
+
 class Cost(object):
-    # does not handle alt casting costs
+    """
+    Object that defines paying the cost of a card (or ability)
+
+    """
 
     def __init__(self, fromString="", B=0, G=0, R=0, U=0, W=0, c=0, X=False):
         self.mana = {}
