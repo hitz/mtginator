@@ -13,3 +13,4 @@ build
 dist
 
 AllSets-x.json.zip
+data/mtgjson
