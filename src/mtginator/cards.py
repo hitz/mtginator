@@ -76,7 +76,7 @@ class Cost(object):
                 except ValueError:
                     if symbol == 'X':
                         self.mana['X'] = True
-                    elif symbol in self.allowed_symbols:
+                    elif symbol in allowed_symbols:
                         self.mana[symbol] = self.mana.get(symbol,0) + 1
                     else:
                         print("Unknown mana symbol: %s" % (symbol))
@@ -136,21 +136,22 @@ class Card(object):
                 if tokens:
                     templated = True
                     if template == 'mana_ability':
-                        if len(tokens.group) == 2:
+                        if len(tokens.group()) == 2:
                             # basic land?
                             pass
-                        elif len(tokens.group) == 3:
+                        elif len(tokens.group()) == 3:
                             # single type
                             pass
-                        elif len(tokens.group) >= 4:
+                        elif len(tokens.group()) >= 4:
                             # multi type
                             pass
             if templated:
                 break
             if self.isCreature:
-                self.keywords = [ k.lower().strip() for k in kwre.findall(line) ]
-            elif re.search('flash(?i)'):
-                self.keywords = [ 'flash']
+                self.keywords = [re.findall(x, text) for x in kwre]
+            elif re.search(r'flash(?i)', text):
+                #this seems like it would fail on "other ~ you control have flash"
+                self.keywords = ['flash']
         # find mana abilities
 
     def isLand(self):
