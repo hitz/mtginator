@@ -5,7 +5,7 @@ data_dir = 'data/decks/'
 test_decks = {
     'Bolt.dec': {'main': 60, 'side': 0, 'lands': 20},
     'Savannah_Lions.dec': {'main': 60, 'side': 0, 'lands': 18},
-    'UR_five.txt': {'main': 60, 'side': 15, 'lands': 20},
+    'UR_five.txt': {'main': 60, 'side': 15, 'lands': 24},
     'Sultai_FKK_3-0.txt': {'main': 40, 'side': 11, 'lands': 18}
 }
 
