@@ -2,10 +2,11 @@
 
 import sys
 import os
-import decks
-import players
+import mtginator.decks as decks
+import mtginator.players as players
 
 DECKS_DIR = 'data/decks/'
+
 
 def run(turns, rounds, decks, goldfish=True):
     print("Running %s games for %s turns...") % (rounds, turns)
@@ -18,22 +19,18 @@ def run(turns, rounds, decks, goldfish=True):
         sys.exit(1)
 
     ourplayers = []
-    for n in range(0,nplayers):
+    for n in range(0, nplayers):
         player = players.Player(name="Player%s" % n, deck=decks[n])
         ourplayers.append(player)
 
-
-    for round in range(0,rounds):
+    for round in range(0, rounds):
         print("Round %s... FIGHT" % (round+1))
         for player in ourplayers:
             player.reset()
             print("%s has a %s card deck" % (player.name, len(player.deck.main)))
             player.mulligan(rules={})
             print("After mulligans player %s has %s cards." % (player.name, len(player.hand)))
-            print("%s" % ([ str(c) for c in player.hand ]))
-
-
-
+            print("%s" % ([str(c) for c in player.hand]))
 
 
 def main():
@@ -42,7 +39,7 @@ def main():
     parser.add_argument('--turns', type=int, metavar='T', help="Number of turns each sim game runs", default=20)
     parser.add_argument('--rounds', type=int, metavar='N', help="Number of sim games", default=1)
     parser.add_argument('--decks', metavar='D', help='Decks to play', nargs='+', required=True)
-    #parser.add_argument('updatefile', type=argparse.FileType('wb'))
+    # parser.add_argument('updatefile', type=argparse.FileType('wb'))
     args = parser.parse_args()
 
     player_decks = []
@@ -63,10 +60,10 @@ def main():
     if len(player_decks) < 1 or len(player_decks) > 2:
         print("Please supply 1 or 2 decks instead of %s" % (len(player_decks)))
 
-
     run(args.turns, args.rounds, player_decks)
+
 
 if __name__ == '__main__':
     main()
 else:
-    print "Foo"
+    print("Importing sim.py for some reason")

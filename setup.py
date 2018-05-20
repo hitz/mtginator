@@ -42,6 +42,9 @@ setup(
     },
     entry_points={
         'console_scripts':
-            ['mtginator=mtginator:main']
-    }
+            [
+                'mtginator = mtginator:main',
+                'sim = mtginator.sim:main',
+            ]
+    },
 )

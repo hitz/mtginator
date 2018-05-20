@@ -1,5 +1,6 @@
 import random
 
+
 class Player(object):
 
     def __init__(self, name='Default1', deck=None, life=20, poison=10):
@@ -13,7 +14,6 @@ class Player(object):
 
         self.battlefield = []
 
-
     def _satisfied(self, rules, n):
         if not rules:
             if len(self.hand) and len(self.hand) < 5:
@@ -25,14 +25,13 @@ class Player(object):
                 return False
 
     def available_mana(self):
-
+        pass
 
     def reset(self):
         self.deck.main = self.deck.main + self.hand + self.graveyard + self.exile + self.battlefield
         self.hand = self.graveyard = self.exile = self.battlefield = []
         self.deck.shuffle()
         assert(len(self.deck.main) == self.deck.total_cards)
-
 
     def mulligan(self, rules={}, n=7, verbose=True):
         ''' draw an initial hand and paris mulligan until acceptable by rules
@@ -61,3 +60,4 @@ class Player(object):
             return []
 
         for card in self.hand:
+            pass

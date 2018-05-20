@@ -12,6 +12,9 @@ To make:
 buildout bootstrap
 bin/buildout
 
+Run tests:
+bin/test
+
 Credits
 -------
 
