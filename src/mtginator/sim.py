@@ -9,7 +9,7 @@ DECKS_DIR = 'data/decks/'
 
 
 def run(turns, rounds, decks, goldfish=True):
-    print("Running %s games for %s turns...") % (rounds, turns)
+    print("Running {} games for {} turns...".format(rounds, turns))
     if goldfish:
         print("In goldfish (single player) mode")
         nplayers = 1
@@ -53,12 +53,12 @@ def main():
                 os.stat(DECKS_DIR+deck_file)
                 d.load_deck(DECKS_DIR+deck_file)
             except OSError:
-                print("Could not find %s to load" % deck_file)
+                print("Could not find {} to load".format(deck_file))
 
         player_decks.append(d)
 
     if len(player_decks) < 1 or len(player_decks) > 2:
-        print("Please supply 1 or 2 decks instead of %s" % (len(player_decks)))
+        print("Please supply 1 or 2 decks instead of {}".format(len(player_decks)))
 
     run(args.turns, args.rounds, player_decks)
 
@@ -66,4 +66,4 @@ def main():
 if __name__ == '__main__':
     main()
 else:
-    print("Importing sim.py for some reason")
+    pass
