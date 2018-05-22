@@ -24,7 +24,7 @@ class Deck(object):
         self.main.append(card)
 
     def putOnBottom(self, card):
-        self.main.insert(0,card)
+        self.main.insert(0, card)
 
     def load_deck(self, input_file='', file_type="txt"):
         ''' need cockatrice XML parse here as well'''
@@ -35,7 +35,7 @@ class Deck(object):
         sideRe = re.compile(r'side(?i)')
         side = False
         for line in df.readlines():
-            ## pre filters
+            #  pre filters
             if sideRe.search(line):
                 side = True
                 continue

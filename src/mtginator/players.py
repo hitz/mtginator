@@ -19,7 +19,8 @@ class Player(object):
             if len(self.hand) and len(self.hand) < 5:
                 # keep all 4s
                 return True
-            elif len([ c for c in self.hand if c.isLand() ]) and len([ c for c in self.hand if not c.isLand() ]):
+            elif len([c for c in self.hand if c.isLand()]) and len([c for c in self.hand if not c.isLand()]):
+                    # literally "lands and spells"
                     return True
             else:
                 return False
@@ -41,18 +42,18 @@ class Player(object):
         self.deck.shuffle()
         self.hand = []
         if verbose:
-            if n==7:
+            if n == 7:
                 print("Drawing initial 7...")
             else:
                 print("Mulling to %s...") % (n)
-        for i in range(0,n):
+        for i in range(0, n):
             self.hand.append(self.deck.drawCard())
 
         while(not self._satisfied(rules, n)):
-            self.mulligan(rules,n-1, verbose=verbose)
+            self.mulligan(rules, n-1, verbose=verbose)
 
         if verbose:
-            print("Final hand %s" % ([ str(c) for c in self.hand ]))
+            print("Final hand %s" % ([str(c) for c in self.hand]))
 
     def enumerate_plays(self):
         ''' For a given hand (or metahand) and available mana, what plays are available to Player'''

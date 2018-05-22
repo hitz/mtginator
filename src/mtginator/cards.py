@@ -20,7 +20,7 @@ allowed_symbols = base_symbols+['X']
 for a in base_symbols:
     allowed_symbols.append(a+'/P')
     for b in base_symbols[1:]:
-        if a==b:
+        if a == b:
             continue
         else:
             allowed_symbols.append(a+'/'+b)
@@ -28,7 +28,7 @@ for a in base_symbols:
 
 manas = r'\{\d+\}'
 for s in allowed_symbols:
-    manas += r'\{'+s+'\}+'
+    manas += r'\{'+s+r'\}+'
 
 keywords = [
     'flash',
@@ -50,7 +50,7 @@ kwre = [re.compile(k+'(?i)') for k in keywords]
 templates = {
     'triggered': re.compile(r'(when |whenever)(?i)'),
     'conditional': re.compile(r'if (?i)'),
-    'activated': re.compile(r'('+manas+'|sacrifice \S+|pay \S+):(?i)'),
+    'activated': re.compile(r'('+manas+r'|sacrifice \S+|pay \S+):(?i)'),
     'mana_ability': re.compile(r'^(B|G|R|W|U)$|\{T\}: Add ('+manas+') (.*) to your mana pool')
 }
 
@@ -64,7 +64,7 @@ class Cost(object):
     def __init__(self, fromString="", B=0, G=0, R=0, U=0, W=0, c=0, X=False):
         self.mana = {}
         if fromString:
-            bracks = re.compile('[\{\}]')
+            bracks = re.compile(r'[\{\}]')
             syms = bracks.split(fromString)
             for symbol in syms:
                 if not symbol:
@@ -83,7 +83,7 @@ class Cost(object):
                         raise
 
         else:
-            ## warning does not handle hybrid/phyrexian use fromString!!!
+            # warning does not handle hybrid/phyrexian use fromString!!!
             self.mana['colorless'] = int(c)
             self.mana['B'] = int(B)
             self.mana['G'] = int(G)
@@ -92,8 +92,6 @@ class Cost(object):
             self.mana['W'] = int(W)
             self.mana['X'] = X
 
-    def cmc(self):
-        return self.cardData.get('cmc',0)
 
 class Card(object):
 
@@ -198,6 +196,13 @@ class Card(object):
         if self.tapped:
             self.tapped = False
 
+    def cmc(self):
+        return self.cardData.get('cmc', 0)
+
+    def pay_cost(self, context):
+
+        print("Cost: {}".format(self.mana_cost))
+
     def play(self, context):
 
         self.pay_cost(context)  # need some sort of game context object
@@ -208,6 +213,3 @@ class Card(object):
 
     def __str__(self):
         return "[ %s (%s) ]" % (self.name, self.cardData.get('manaCost', '0'))
-
-
-
