@@ -77,7 +77,7 @@ class Cost(object):
                     if symbol == 'X':
                         self.mana['X'] = True
                     elif symbol in allowed_symbols:
-                        self.mana[symbol] = self.mana.get(symbol,0) + 1
+                        self.mana[symbol] = self.mana.get(symbol, 0) + 1
                     else:
                         print("Unknown mana symbol: %s" % (symbol))
                         raise
@@ -95,11 +95,11 @@ class Cost(object):
 
 class Card(object):
 
-    def __init__(self, name='', cost='', spells=[], cardData={}):
-        if cardData:
-            self.name = cardData['name']
-            self.mana_cost = Cost(fromString=cardData.get('manaCost',''))
-            self.cardData = cardData
+    def __init__(self, name='', cost='', spells=[], card_data={}):
+        if card_data:
+            self.name = card_data['name']
+            self.mana_cost = Cost(fromString=card_data.get('manaCost',''))
+            self.card_data = card_data
 
             self.keywords = []
             self.spells = []
@@ -116,10 +116,10 @@ class Card(object):
 
     def _parse_text(self):
         ''' parse text or originalText for important abilities'''
-        text = self.cardData.get("text","")
+        text = self.card_data.get("text","")
         if not text:
             # note basic lands
-            text = self.cardData.get("originalText", "")
+            text = self.card_data.get("originalText", "")
 
         # find if cipt
         self.cipt = False
@@ -145,7 +145,7 @@ class Card(object):
                             pass
             if templated:
                 break
-            if self.isCreature:
+            if self.is_creature:
                 self.keywords = [re.findall(x, text) for x in kwre]
             elif re.search(r'flash(?i)', text):
                 # this seems like it would fail on "other ~ you control have flash"
@@ -153,28 +153,28 @@ class Card(object):
         # find mana abilities
 
     def is_land(self):
-        return 'Land' in self.cardData['types']
+        return 'Land' in self.card_data['types']
 
     def is_permanent(self):
-        [ty for ty in self.cardData['types'] if ty in permanents]
+        [ty for ty in self.card_data['types'] if ty in permanents]
 
     def is_creature(self):
-        return 'Creature' in self.cardData['types']
+        return 'Creature' in self.card_data['types']
 
     def is_enchantment(self):
-        return 'Enchantment' in self.cardData['types']
+        return 'Enchantment' in self.card_data['types']
 
     def is_planeswalker(self):
-        return 'Planeswalker' in self.cardData['types']
+        return 'Planeswalker' in self.card_data['types']
 
     def is_artifact(self):
-        return 'Artifact' in self.cardData['types']
+        return 'Artifact' in self.card_data['types']
 
     def is_instant(self):
-        return 'Instant' in self.cardData['types']
+        return 'Instant' in self.card_data['types']
 
     def is_sorcery(self):
-        return 'Sorcery' in self.cardData['types']
+        return 'Sorcery' in self.card_data['types']
 
     def is_instant_speed(self):
         return self.isInstant or 'flash' in self.keywords
@@ -197,7 +197,7 @@ class Card(object):
             self.tapped = False
 
     def cmc(self):
-        return self.cardData.get('cmc', 0)
+        return self.card_data.get('cmc', 0)
 
     def pay_cost(self, context):
 
@@ -212,4 +212,4 @@ class Card(object):
             self.tapped = True
 
     def __str__(self):
-        return "[ %s (%s) ]" % (self.name, self.cardData.get('manaCost', '0'))
+        return "[ %s (%s) ]" % (self.name, self.card_data.get('manaCost', '0'))

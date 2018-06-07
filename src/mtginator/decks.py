@@ -56,9 +56,9 @@ class Deck(object):
 
             for n in range(num):
                 if side:
-                    self.side.append(cards.Card(cardData=template))
+                    self.side.append(cards.Card(card_data=template))
                 else:
-                    self.main.append(cards.Card(cardData=template))
+                    self.main.append(cards.Card(card_data=template))
         self.total_cards = len(self.main)
 
 
