@@ -24,7 +24,7 @@ class Game(object):
         if turn and turn > self.maxturns:
             return self.players
         for player in self.players:
-            if (player.life <= 0) or (player.poison <= 0) or (len(player.deck) == 0 and player in draw): 
+            if (player.life <= 0) or (player.poison <= 0) or (len(player.deck) == 0 and player in draw):
                 losers.update(player)
 
         return list(losers)
@@ -108,7 +108,7 @@ class Player(object):
         self.deck.shuffle()
         assert(len(self.deck.main) == self.deck.total_cards)
 
-    def mulligan(self, rules={}, n=7, verbose=True):
+    def mulligan(self, rules=None, n=7, verbose=True):
         ''' draw an initial hand and paris mulligan until acceptable by rules
             default rules are mulligan 0 land and 0 non-land hands until 4, then keep '''
 
@@ -119,7 +119,7 @@ class Player(object):
             if n == 7:
                 print("Drawing initial 7...")
             else:
-                print("Mulling to %s...") % (n)
+                print("Mulling to {}...".format(n))
         for i in range(0, n):
             self.hand.append(self.deck.drawCard())
 
@@ -143,9 +143,9 @@ class Player(object):
         return {self.hand} 
 
     def __repr__(self):
-        return("Name: {} Deck {} Life {} Poison {} #Cards-in-Hand {} WP% {}".format(self.name, 
-                                                                                    self.deck.name, 
-                                                                                    self.life, 
-                                                                                    self.poison, 
+        return("Name: {} Deck {} Life {} Poison {} #Cards-in-Hand {} WP% {}".format(self.name,
+                                                                                    self.deck.name,
+                                                                                    self.life,
+                                                                                    self.poison,
                                                                                     len(self.hand), 0.5))
 
