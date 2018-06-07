@@ -3,7 +3,7 @@
 import sys
 import os
 import mtginator.decks as decks
-import mtginator.players as players
+import mtginator.game as game
 
 DECKS_DIR = 'data/decks/'
 
@@ -20,7 +20,7 @@ def run(turns, rounds, decks, goldfish=True):
 
     ourplayers = []
     for n in range(0, nplayers):
-        player = players.Player(name="Player%s" % n, deck=decks[n])
+        player = game.Player(name="Player%s" % n, deck=decks[n])
         ourplayers.append(player)
 
     for round in range(0, rounds):
@@ -31,6 +31,17 @@ def run(turns, rounds, decks, goldfish=True):
             player.mulligan(rules={})
             print("After mulligans player %s has %s cards." % (player.name, len(player.hand)))
             print("%s" % ([str(c) for c in player.hand]))
+        game_state = game.Game(ourplayers, maxturns=turns)
+        current_turn = 0
+        (first_player, second_player) = game_state.play_or_draw()
+        print("{} goes first".format(first_player.name))
+        print("{} goes second".format(second_player.name))
+
+        while(not game_state.is_over(turn=current_turn)):
+            current_turn += 1
+            print(game_state)
+            first_player.take_turn()
+            second_player.take_turn()
 
 
 def main():

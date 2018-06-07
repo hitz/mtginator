@@ -17,13 +17,13 @@ class Deck(object):
     def shuffle(self):
         random.shuffle(self.main)
 
-    def drawCard(self):
+    def draw_card(self):
         return self.main.pop()
 
-    def putOnTop(self, card):
+    def put_on_top(self, card):
         self.main.append(card)
 
-    def putOnBottom(self, card):
+    def put_on_bottom(self, card):
         self.main.insert(0, card)
 
     def load_deck(self, input_file='', file_type="txt"):

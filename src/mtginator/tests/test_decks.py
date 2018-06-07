@@ -19,7 +19,7 @@ def test_deck_load():
 
         assert(len(deck.main) == test_decks[deck_file]['main'])
         assert(len(deck.side) == test_decks[deck_file]['side'])
-        lands = [ cc for cc in deck.main if 'Land' in cc.cardData['types'] ]
+        lands = [cc for cc in deck.main if 'Land' in cc.cardData['types']]
         assert(len(lands) == test_decks[deck_file]['lands'])
 
 

@@ -148,39 +148,39 @@ class Card(object):
             if self.isCreature:
                 self.keywords = [re.findall(x, text) for x in kwre]
             elif re.search(r'flash(?i)', text):
-                #this seems like it would fail on "other ~ you control have flash"
+                # this seems like it would fail on "other ~ you control have flash"
                 self.keywords = ['flash']
         # find mana abilities
 
-    def isLand(self):
+    def is_land(self):
         return 'Land' in self.cardData['types']
 
-    def isPermanent(self):
-        [ ty for ty in self.cardData['types'] if ty in permanents ]
+    def is_permanent(self):
+        [ty for ty in self.cardData['types'] if ty in permanents]
 
-    def isCreature(self):
+    def is_creature(self):
         return 'Creature' in self.cardData['types']
 
-    def isEnchantment(self):
+    def is_enchantment(self):
         return 'Enchantment' in self.cardData['types']
 
-    def isPlaneswalker(self):
+    def is_planeswalker(self):
         return 'Planeswalker' in self.cardData['types']
 
-    def isArtifact(self):
+    def is_artifact(self):
         return 'Artifact' in self.cardData['types']
 
-    def isInstant(self):
+    def is_instant(self):
         return 'Instant' in self.cardData['types']
 
-    def isSorcery(self):
+    def is_sorcery(self):
         return 'Sorcery' in self.cardData['types']
 
-    def isInstantSpeed(self):
+    def is_instant_speed(self):
         return self.isInstant or 'flash' in self.keywords
 
     def draw(self):
-        self.zone = 'hand'
+        self.zone = 'hand'  # this is probably not correct
 
     def destroy(self):
         self.zone = 'graveyard'
