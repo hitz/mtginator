@@ -83,8 +83,16 @@ class Player(object):
         self.hand += [self.deck.draw_card()]
 
     def main(self):
+        self.land_drop()
         plays = self.enumerate_plays()
         self.make_play(plays)
+
+    def land_drop(self):
+        lands = [c for c in self.hand if c.is_land]
+        pick = random.choice(lands)
+        # Note: should implment some color optimization
+        pick.play()
+        print("Played {} as Land for turn [ hand size: {} ]".format(pick, len(self.hand)))
 
     def cleanup(self):
         while(len(self.hand) > self.max_handsize):
@@ -100,6 +108,7 @@ class Player(object):
         print("Playing {}".format(card_to_play))
 
     def available_mana(self):
+        ''' return mana object based on board state '''
         pass
 
     def reset(self):

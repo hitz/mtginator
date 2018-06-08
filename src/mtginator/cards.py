@@ -10,16 +10,23 @@ Defines Card objecs.
 
 zones = ['hand', 'library', 'graveyard', 'battlefield', 'exile']
 permanents = ['Land', 'Creature', 'Enchantment', 'Artifact', 'Planeswalker']
-base_symbols = ['B', 'G', 'R', 'U', 'W']
+land_mana = {
+    'Plains':   'W',
+    'Island':   'U',
+    'Swamp':    'B',
+    'Mountain': 'R',
+    'Forest':   'G',
+    'Wastes':   'C',
+}
 
 # mana costs from MTGJson are {Z} where Z is int or symbol
 # hybrid is {S/T}
 # X is {X}
 # Phyrexian is {Z/P}
-allowed_symbols = base_symbols+['X']
-for a in base_symbols:
+allowed_symbols = list(land_mana.values())+['X']
+for a in land_mana.values():
     allowed_symbols.append(a+'/P')
-    for b in base_symbols[1:]:
+    for b in list(land_mana.values())[1:]:
         if a == b:
             continue
         else:
@@ -112,11 +119,11 @@ class Card(object):
         self.zone = 'library'
         self.untaps_normally = True
         self.summoning_sick = False
-        self.tapped = None #
+        self.tapped = None
 
     def _parse_text(self):
         ''' parse text or originalText for important abilities'''
-        text = self.card_data.get("text","")
+        text = self.card_data.get("text", "")
         if not text:
             # note basic lands
             text = self.card_data.get("originalText", "")
@@ -177,7 +184,10 @@ class Card(object):
         return 'Sorcery' in self.card_data['types']
 
     def is_instant_speed(self):
-        return self.isInstant or 'flash' in self.keywords
+        return self.is_instant or 'flash' in self.keywords
+
+    def is_mana_source(self):
+        return [land_mana[ty] for ty in land_mana.keys() if ty in self.name]
 
     def draw(self):
         self.zone = 'hand'  # this is probably not correct
@@ -201,7 +211,13 @@ class Card(object):
 
     def pay_cost(self, context):
 
-        print("Cost: {}".format(self.mana_cost))
+        print("Cost: {} of {}".format(self.mana_cost, self))
+
+        if context.can_pay(self.mana_cost):
+            print("Paying Costs")
+            context.pay(self.mana_cost)
+        else:
+            print("{} unable to pay".format(context))
 
     def play(self, context):
 
@@ -211,5 +227,8 @@ class Card(object):
         if self.cipt:
             self.tapped = True
 
-    def __str__(self):
+    def __repr__(self):
         return "[ %s (%s) ]" % (self.name, self.card_data.get('manaCost', '0'))
+
+    def __str__(self):
+        return self.__repr__()
