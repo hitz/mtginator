@@ -78,8 +78,8 @@ class Cost(object):
                     continue
                     # split leaves ""s
                 try:
-                    colorless = int(symbol)
-                    self.mana['colorless'] = colorless
+                    generic = int(symbol)
+                    self.mana['generic'] = generic
                 except ValueError:
                     if symbol == 'X':
                         self.mana['X'] = True
@@ -91,7 +91,8 @@ class Cost(object):
 
         else:
             # warning does not handle hybrid/phyrexian use fromString!!!
-            self.mana['colorless'] = int(c)
+            # does it handle wingding?
+            self.mana['generic'] = int(c)
             self.mana['B'] = int(B)
             self.mana['G'] = int(G)
             self.mana['R'] = int(R)
@@ -105,7 +106,7 @@ class Card(object):
     def __init__(self, name='', cost='', spells=[], card_data={}):
         if card_data:
             self.name = card_data['name']
-            self.mana_cost = Cost(fromString=card_data.get('manaCost',''))
+            self.mana_cost = Cost(fromString=card_data.get('manaCost', ''))
             self.card_data = card_data
 
             self.keywords = []
@@ -163,7 +164,7 @@ class Card(object):
         return 'Land' in self.card_data['types']
 
     def is_permanent(self):
-        [ty for ty in self.card_data['types'] if ty in permanents]
+        return bool([ty for ty in self.card_data['types'] if ty in permanents])
 
     def is_creature(self):
         return 'Creature' in self.card_data['types']
@@ -184,7 +185,7 @@ class Card(object):
         return 'Sorcery' in self.card_data['types']
 
     def is_instant_speed(self):
-        return self.is_instant or 'flash' in self.keywords
+        return self.is_instant() or 'flash' in self.keywords
 
     def is_mana_source(self):
         return [land_mana[ty] for ty in land_mana.keys() if ty in self.name]

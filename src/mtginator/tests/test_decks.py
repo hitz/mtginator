@@ -1,8 +1,8 @@
 import pytest  # noqa
 
 from mtginator import decks
-data_dir = 'data/decks/'
-test_decks = {
+DATA_DIR = 'data/decks/'
+TEST_DECKS = {
     'Bolt.dec': {'main': 60, 'side': 0, 'lands': 20},
     'Savannah_Lions.dec': {'main': 60, 'side': 0, 'lands': 18},
     'UR_five.txt': {'main': 60, 'side': 15, 'lands': 24},
@@ -11,16 +11,16 @@ test_decks = {
 
 
 def test_deck_load():
-
-    for deck_file in test_decks.keys():
+    ''' test loading decks '''
+    for deck_file in TEST_DECKS.keys():
 
         deck = decks.Deck()
-        deck.load_deck(data_dir+deck_file)
+        deck.load_deck(DATA_DIR+deck_file)
 
-        assert(len(deck.main) == test_decks[deck_file]['main'])
-        assert(len(deck.side) == test_decks[deck_file]['side'])
+        assert len(deck.main) == TEST_DECKS[deck_file]['main']
+        assert len(deck.side) == TEST_DECKS[deck_file]['side']
         lands = [cc for cc in deck.main if 'Land' in cc.card_data['types']]
-        assert(len(lands) == test_decks[deck_file]['lands'])
+        assert len(lands) == TEST_DECKS[deck_file]['lands']
 
 
 if __name__ == '__main__':

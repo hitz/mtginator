@@ -35,7 +35,11 @@ class Game(object):
     def __str__(self):
         return self.__repr__()
 
-
+class Mana(object):
+    ''' Object that represents mana-producing board state of a player '''
+    def __init__(self, board, extras=[]):
+        for permanent in board:
+            
 class Player(object):
     ''' Object that represents a player of the game'''
 
