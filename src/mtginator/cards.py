@@ -109,10 +109,11 @@ class Card(object):
             self.mana_cost = Cost(fromString=card_data.get('manaCost', ''))
             self.card_data = card_data
 
-            self.keywords = []
+            self.keywords = set()
             self.spells = []
             self.targets = []
             self._parse_text()
+            self.loyalty = card_data.get('loyalty', None)
         else:
             self.name = name
             self.mana_cost = Cost(fromString=cost)
@@ -131,7 +132,7 @@ class Card(object):
 
         # find if cipt
         self.cipt = False
-        if text.find('enters the battlefield tapped'):
+        if text.find('enters the battlefield tapped') >= 0:
             self.cipt = True
 
         # find key_words and mana abilities
@@ -154,10 +155,14 @@ class Card(object):
             if templated:
                 break
             if self.is_creature:
-                self.keywords = [re.findall(x, text) for x in kwre]
+                for x in kwre:
+                    found = re.findall(x, text)
+                    if found:
+                        self.keywords.add(found[0].lower())
+                # self.keywords = [re.findall(x, text) for x in kwre]
             elif re.search(r'flash(?i)', text):
                 # this seems like it would fail on "other ~ you control have flash"
-                self.keywords = ['flash']
+                self.keywords = {'flash'}
         # find mana abilities
 
     def is_land(self):
@@ -183,6 +188,9 @@ class Card(object):
 
     def is_sorcery(self):
         return 'Sorcery' in self.card_data['types']
+
+    def is_legendary(self):
+        return 'Legendary' in self.card_data['supertypes']
 
     def is_instant_speed(self):
         return self.is_instant() or 'flash' in self.keywords
